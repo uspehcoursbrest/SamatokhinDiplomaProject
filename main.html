@@ -28,7 +28,7 @@
                 <span class="path2"></span>
             </span></a>
         </div>
-        <ul class="Menu">
+        <ul class="headMenu">
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Referal program</a></li>
@@ -43,18 +43,20 @@
 <div class="content">
     <div class="loginOffers">
         <div class="container">
-            <h1>Make right<span>investment</span></h1>
-            <span>Make investment with Atlantic Oil LTD</span>
+            <div class="tagline">
+                <h1>Make right<span>investment</span></h1>
+                <span>Make investment with Atlantic Oil LTD</span>
+            </div>
             <div class="logSub">
-                <a href="#">login</a>
-                <a href="#">sign up</a>
+                <a href="#" class="btnColor2">login</a>
+                <a href="#" class="btnCopor3">sign up</a>
             </div>
             <div class="section title">
-                <span>atlantic oil limited</span>
-                <h2>Investment offers</h2>
+                <span class="textLight1">atlantic oil limited</span>
+                <h2 class="textLight2">Investment offers</h2>
             </div>
             <div class="slider">
-                <div class="img">
+                <div class="card1">
                     <span>01</span>
                     <span class="icon-offer1">
                         <span class="path1"></span>
@@ -63,7 +65,7 @@
                     <span>140%</span>
                     <span>After 1 Day</span>
                 </div>
-                <div class="img">
+                <div class="card2">
                     <span>02</span>
                     <span class="icon-offer2">
                         <span class="path1"></span>
@@ -72,7 +74,7 @@
                     <span>300%</span>
                     <span>After 5 Days</span>
                 </div>
-                <div class="img">
+                <div class="card3">
                     <span>03</span>
                     <span class="icon-offer3">
                         <span class="path1"></span>
@@ -81,7 +83,7 @@
                     <span>600%</span>
                     <span>After 10 Days</span>
                 </div>
-                <div class="img">
+                <div class="card4">
                     <span>04</span>
                     <span class="icon-offer4">
                         <span class="path1"></span>
@@ -96,90 +98,91 @@
     <div class="calculator">
         <div class="container">
             <div class="section title">
-                <span>your profit</span>
-                <h2>Calculator</h2>
+                <span class="textDark">your profit</span>
+                <h2 class="textDark">Calculator</h2>
             </div>
-            <form action="#">
-                <div class="selectPlan">
-                    <div class="item">
-                        <label for="Plans">Select plan:<span></span></label>
-                        <select name="Plans" id="Plans">
-                            <option value="Plan 4 $ 2501 - $ 5000 180% After 5 Days">Plan 1 $ 2501-$ 5000 180% After 5
-                                days
-                            </option>
-                            <option value="Plan 3 $ 2501 - $ 5000 180% After 5 Days">Plan 2 $ 2501-$ 5000 180% After 5
-                                days
-                            </option>
-                            <option value="Plan 2 $ 2501 - $ 5000 180% After 5 Days">Plan 3 $ 2501-$ 5000 180% After 5
-                                days
-                            </option>
-                            <option value="Plan 1 $ 2501 - $ 5000 180% After 5 Days">Plan 4 $ 2501-$ 5000 180% After 5
-                                days
-                            </option>
-                        </select>
-                    </div>
+            <div class="selectPlan">
+                <div class="item">
+                    <label for="Plans">Select plan:<span></span></label>
+                    <select name="Plans" id="Plans">
+                        <option value="Plan 4 $ 2501 - $ 5000 180% After 5 Days">Plan 1 $ 2501-$ 5000 180% After 5
+                            days
+                        </option>
+                        <option value="Plan 3 $ 2501 - $ 5000 180% After 5 Days">Plan 2 $ 2501-$ 5000 180% After 5
+                            days
+                        </option>
+                        <option value="Plan 2 $ 2501 - $ 5000 180% After 5 Days">Plan 3 $ 2501-$ 5000 180% After 5
+                            days
+                        </option>
+                        <option value="Plan 1 $ 2501 - $ 5000 180% After 5 Days">Plan 4 $ 2501-$ 5000 180% After 5
+                            days
+                        </option>
+                    </select>
                 </div>
-                <div class="enterAmount">
+            </div>
+            <div class="enterAmount">
+                <form action="#">
                     <div class="item">
                         <label for="enterAmount">enter amount:</label>
                         <input type="text" name="enterAmount" id="enterAmount" placeholder="$">
                     </div>
-                    <span>Deposit amount:</span>
-                    <span>3001 $</span>
+                </form>
+                <span>Deposit amount:</span>
+                <span>3001 $</span>
+            </div>
+            <div class="selectAmount">
+                <div class="item">
+                    <label for="selectAmount">Select amount:</label>
+                    <input type="text" name="selectAmount" id="selectAmount">
                 </div>
-                <div class="selectAmount">
-                    <div class="item">
-                        <label for="selectAmount">Select amount:</label>
-                        <input type="text" name="selectAmount" id="selectAmount">
-                    </div>
+            </div>
+            <div class="profit">
+                <div class="profitForm1">
+                    <span>Selected plan:</span>
+                    <span>Plan 4</span>
                 </div>
-                <div class="profit">
-                    <div class="profitForm">
-                        <span>Selected plan:</span>
-                        <span>Plan 4</span>
-                    </div>
-                    <div class="profitForm">
-                        <span>Deposit period:</span>
-                        <span>5 Days</span>
-                    </div>
-                    <div class="profitForm">
-                        <span>Deposit percent:</span>
-                        <span>180%</span>
-                    </div>
-                    <div class="profitForm">
-                        <span>Dayly profit:</span>
-                        <span>715.98 $</span>
-                    </div>
-                    <div class="profitForm">
-                        <span>Total profit:</span>
-                        <span>47335.60 $</span>
-                    </div>
+                <div class="profitForm2">
+                    <span>Deposit period:</span>
+                    <span>5 Days</span>
                 </div>
-                <p>Get moneyAll payments are made after the end of the deposit period. The deposit is included in the
-                    payments.</p>
-                <a href="#">get money</a>
-            </form>
+                <div class="profitForm3">
+                    <span>Deposit percent:</span>
+                    <span>180%</span>
+                </div>
+                <div class="profitForm4">
+                    <span>Dayly profit:</span>
+                    <span>715.98 $</span>
+                </div>
+                <div class="profitForm5">
+                    <span>Total profit:</span>
+                    <span>47335.60 $</span>
+                </div>
+            </div>
+            <p class="textBlockDark">Get moneyAll payments are made after the end of the deposit period. The deposit is
+                included in the
+                payments.</p>
+            <a href="#" class="btnColor1">get money</a>
         </div>
     </div>
     <div class="about">
         <div class="container">
             <div class="section title">
-                <span>atlantic oil limited</span>
-                <h2>About company</h2>
+                <span class="textLight1">atlantic oil limited</span>
+                <h2 class="textLight2">About company</h2>
             </div>
             <div class="infoAbout">
                 <div class="info">
-                    <p>Atlantic Oil Limi ted vivamus eget molestie massa. Aliquam at dolor semper erat eleifend vehicula
+                    <p class="textBlockLight">Atlantic Oil Limi ted vivamus eget molestie massa. Aliquam at dolor semper erat eleifend vehicula
                         tincidunt ac elit. Donec blandit ligula in ultrices suscipit. Ut quam sapien, dignissim in mi
                         nec, porta dignissim sem. In imperdiet laoreet risus. Fusce purus urna, rutrum quis orci auctor,
                         efficitur tincidunt nunc.</p>
-                    <p>Nam sit amet sagittis nibh, eu vulputate orci. Cras sed sagittis neque. In augue elit, porta
+                    <p class="textBlockLight">Nam sit amet sagittis nibh, eu vulputate orci. Cras sed sagittis neque. In augue elit, porta
                         vitae neque eget, viverra blandit massa. Pellentesque habitant morbi tristique senectus et netus
                         et malesuada fames ac turpis egestas. Proin maximus, ligula sed congue rhoncus, turpis sapien
                         pretium lacus, in maximus enim nisi eu nulla. Vivamus pretium nunc at purus rutrum commodo.
                         Aliquam sed leo nec lorem laoreet blandit. Sed nec ipsum egestas, vestibulum lacus ac, volutpat
                         elit.</p>
-                    <p>Aliquam a lacus id tortor dignissim tempor ut id magna. Nunc vulputate congue molestie. Donec
+                    <p class="textBlockLight">Aliquam a lacus id tortor dignissim tempor ut id magna. Nunc vulputate congue molestie. Donec
                         tempus quam at lectus luctus sagittis. Integer diam ex, viverra ut convallis et, porta eget
                         nibh. Cras molestie egestas elit, nec ultrices nisl blandit at. Morbi eros eros, eleifend ac
                         pretium ut, aliquam vitae purus. Vestibulum sed massa ut augue pretium finibus. Ut fringilla
@@ -209,8 +212,8 @@
         <div class="container">
             <div class="caption">
                 <div class="section title">
-                    <span>Our advantages</span>
-                    <h2>Why choose us?</h2>
+                    <span class="textDark">Our advantages</span>
+                    <h2 class="textDark">Why choose us?</h2>
                 </div>
                 <div class="wrapper">
                     <div class="leftItem">
@@ -282,7 +285,7 @@
             <img src="" alt="">
             <span>atlantic oil limited</span>
             <span>Start earning with us right now</span>
-            <a href="#">Sign up now</a>
+            <a href="#" class="btnBorder">Sign up now</a>
         </div>
     </div>
     <div class="statistics">
@@ -297,52 +300,52 @@
                     <li>
                         <span>ewisjohn</span>
                         <span>$ 1700,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>maputrinh</span>
                         <span>$ 257,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>sugus</span>
                         <span>$ 2835,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>nguyendung</span>
                         <span>$ 750,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>ymys</span>
                         <span>$ 1700,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>ivanapre</span>
                         <span>$ 3100,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>skybitcoins</span>
                         <span>$ 5670,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>shamshaan</span>
                         <span>$ 2835,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>van507</span>
                         <span>$ 257,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>nguyendung</span>
                         <span>$ 750,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                 </ul>
             </div>
@@ -364,27 +367,27 @@
                     <li>
                         <span>ewisjohn</span>
                         <span>$ 1700,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>maputrinh</span>
                         <span>$ 257,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>sugus</span>
                         <span>$ 2835,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>nguyendung</span>
                         <span>$ 750,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>ymys</span>
                         <span>$ 1700,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>ivanapre</span>
@@ -394,31 +397,31 @@
                     <li>
                         <span>skybitcoins</span>
                         <span>$ 5670,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>shamshaan</span>
                         <span>$ 2835,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                     <li>
                         <span>van507</span>
                         <span>$ 257,00</span>
-                        <span></span>
+                        <<img src="" alt="">
                     </li>
                     <li>
                         <span>nguyendung</span>
                         <span>$ 750,00</span>
-                        <span></span>
+                        <img src="" alt="">
                     </li>
                 </ul>
             </div>
             <div class="text">
-                <p>Our project is a most interesting startup which is directed to work with the cryptocurrency exchange
+                <p class="textblockLight">Our project is a most interesting startup which is directed to work with the cryptocurrency exchange
                     market.</p>
-                <p>We believe that was the future. About popularity and benefit of cooperation with our cryptocurrency
+                <p class="textblockLight">We believe that was the future. About popularity and benefit of cooperation with our cryptocurrency
                     project it is possible to know by the chart of income which promptly grows.</p>
-                <p>Investment tier is actively increases, and it indicates about interest of investors and about
+                <p class="textblockLight">Investment tier is actively increases, and it indicates about interest of investors and about
                     successes of our activity.</p>
             </div>
             <a href="#"></a>
@@ -427,8 +430,8 @@
     <div class="referal">
         <div class="container">
             <div class="section title">
-                <span>atlantic oil limited</span>
-                <h2>Referal program</h2>
+                <span class="textDark">atlantic oil limited</span>
+                <h2 class="textDark">Referal program</h2>
             </div>
             <p>The ordinary referrals, which become a part of our team get a profit of 3% of each new deposit.</p>
             <p>Your basic investment will grow every minute and to bring you an additional income as the market of
@@ -440,7 +443,7 @@
                 <img src="" alt="">
             </div>
             <span>Start earning with us:</span>
-            <a href="#">Sign up now</a>
+            <a href="#" class="btnDorderGrad">Sign up now</a>
         </div>
     </div>
     <div class="payments">
@@ -468,10 +471,6 @@
     </div>
 </div>
 <div class="footer">
-    <div class="copyright">
-        <span>© 2018 Atlantic Oil LTD.</span>
-        <span>All rights reserved.</span>
-    </div>
     <div class="container">
         <div class="logoFoot">
             <img src="" alt="">
@@ -479,14 +478,18 @@
             <span>Oil</span>
             <span>limited</span>
         </div>
+        <div class="copyright">
+            <span>© 2018 Atlantic Oil LTD.</span>
+            <span>All rights reserved.</span>
+        </div>
         <div class="footMenu">
-            <ul>
+            <ul class="leftMenu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Referal program</a></li>
                 <li><a href="#">news</a></li>
             </ul>
-            <ul>
+            <ul class="rightMenu">
                 <li><a href="#">faq</a></li>
                 <li><a href="#">terms</a></li>
                 <li><a href="#">rate us</a></li>
@@ -495,8 +498,8 @@
         </div>
         <div class="footContacts">
             <span>Adress:<a href="#"></a>England, London, N1 7GU, 20-22 Wenlock road</span>
-            <span>phone:<a href="#"></a>+44 7911 123-456</span>
-            <span>e-mail:<a href="#"></a>atlanticoil@support.cc </span>
+            <span>phone:<a href="#" class="linkType1"></a>+44 7911 123-456</span>
+            <span>e-mail:<a href="#" class="linkType2"></a>atlanticoil@support.cc </span>
         </div>
     </div>
 </div>
