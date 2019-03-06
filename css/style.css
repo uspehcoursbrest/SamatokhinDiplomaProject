@@ -3,7 +3,7 @@
 }
 
 body {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     font-family: "Roboto Slab";
 }
@@ -23,3 +23,122 @@ ul {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.logoSpan1 {
+    font-family: "Podkova ExtraBold";
+    font-size: 20px;
+    line-height: 20px;
+    color: #ff9001;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.logoSpan2 {
+    font-family: "Podkova ExtraBold";
+    font-size: 62px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #ff9001;
+    text-align: left;
+}
+
+.logoSpan3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6em;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+header .phone {
+    font-size: 30px;
+    line-height: 20px;
+    color: #ff692a;
+    text-decoration: none;
+}
+
+header .supp {
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #ff9001;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+header {
+    background-color: #333333;
+}
+
+header .contacts [class*="icon"] {
+    font-size: 55px;
+}
+
+header .contacts a:not(.supp) {
+    text-decoration: none;
+}
+
+header .headMenu a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.tagline1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tagline2 {
+    font-family: Podkova;
+    font-size: 133px;
+    line-height: 133px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tagline3 {
+    font-size: 25px;
+    line-height: 70px;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.35em;
+}
+
+.btnColor2 {
+    font-size: 17px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+    background-color: #ff692a;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btnColor3 {
+    font-size: 17px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+    background-color: #ff9001;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
