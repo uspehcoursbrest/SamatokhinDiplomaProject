@@ -66,9 +66,6 @@ header .supp {
     font-weight: 300;
     letter-spacing: 0.05em;
 }
-header {
-    background-color: #333333;
-}
 
 header .contacts [class*="icon"] {
     font-size: 55px;
@@ -139,6 +136,68 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
+.captionLight {
+    text-align: center;
+}
 
+.captionDark {
+    text-align: center;
+}
 
+.captionLight span {
+    font-size: 18px;
+    line-height: 70px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.captionLight h2 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.captionDark span {
+    font-size: 18px;
+    line-height: 70px;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.captionDark h2 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.sliderOffers [class*="icon"] {
+    font-size: 92px;
+}
+
+.sliderOffers span:first-child {
+    font-size: 70px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.sliderOffers span:nth-child(3) {
+    font-size: 45px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ff9001;
+}
+
+.sliderOffers span:nth-child(4) {
+    font-size: 18px;
+    line-height: 30px;
+    color: #ff692a;
+    font-weight: 300;
+}
 
