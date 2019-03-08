@@ -47,7 +47,7 @@ ul {
     line-height: 20px;
     font-weight: 700;
     letter-spacing: 0.6em;
-    color: #333333;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -150,14 +150,21 @@ header .headMenu a {
     font-weight: 300;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #333333;
+    color: #ffffff;
 }
 
 .captionLight h2 {
     font-size: 50px;
     line-height: 70px;
     font-weight: 700;
-    color: #333333;
+    color: #ffffff;
+}
+
+.captionLight b {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .captionDark span {
@@ -199,5 +206,418 @@ header .headMenu a {
     line-height: 30px;
     color: #ff692a;
     font-weight: 300;
+}
+
+.calculator {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.subscribe {
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.statistics {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.referal {
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.payments {
+    height: 110px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.location {
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer {
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.selectPlan label {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+    text-transform: uppercase;
+}
+.selectPlan option {
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+}
+
+.enterAmount label {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+    text-transform: uppercase;
+}
+
+.enterAmount span:first-child {
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+}
+
+.enterAmount span:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+
+}
+
+.runner label {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #05141b;
+}
+
+.profit span:first-child {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.profit span:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profit div[class^="profirForm"] {
+    color: #05141b;
+}
+
+.profit div[class^="totalProfit"] {
+    color: #ffffff;
+}
+
+.profit div:nth-child(4) {
+   background-color: #ff9001;
+}
+
+.profit div:last-child {
+    background-color: #ff692a;
+}
+
+.calculator p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+    text-align: center;
+}
+
+.btnColor1 {
+    font-size: 17px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    width: 210px;
+    background-color: #05141b;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.info p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.info b {
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.license b {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.license p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.license span {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ff9001;
+}
+
+.checkCompany {
+    font-size: 17px;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    width: 260px;
+    background-color: #fb6c28;
+    border: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.about [class*="icon"] {
+    font-size: 150px;
+    color: #ff8d04;
+}
+
+.about a:last-child {
+    text-decoration: none;
+}
+
+.advantages [class*="icon"] {
+    font-size: 60px;
+    color: #ffa42f;
+}
+
+.advantages .leftItem span:nth-child(even) {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+    text-transform: uppercase;
+}
+
+.advantages .leftItem p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #05141b;
+}
+
+.advantages .rightItem span:nth-child(even) {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+    text-transform: uppercase;
+}
+
+.advantages .rightItem p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #05141b;
+}
+
+.subscribe span:nth-child(2) {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.subscribe span:nth-child(3) {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    color: #06151c;
+}
+
+.btnBorder {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    width: 270px;
+    border:2px solid #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.statistics [class*="icon"] {
+    font-size: 85px;
+}
+
+.statistics .titleLight {
+    font-size: 25px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.statistics .table1 span:first-child {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.statistics .table1 span:nth-child(2) {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ff692a;
+}
+
+.statistics .table2 span:first-child {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.statistics .table2 span:nth-child(2) {
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffa42f;
+}
+
+.statistics .diagramm span:nth-child(odd) {
+    font-size: 25px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.statistics .diagramm span:nth-child(even) {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.statistics .statisticsText * {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.referal p:nth-child(2) {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #05141b;
+    text-align: center;
+}
+
+.referal p:nth-child(3) {
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+    text-align: center;
+}
+
+.referal .procent .big {
+    font-size: 155px;
+    line-height: 57px;
+    font-weight: 700;
+    color: #05141b;
+    text-align: center;
+}
+.referal .referalTitle {
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff6b28;
+    text-align: center;
+}
+
+.btnBorderGrad {
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    color: #ff6b28;
+    width: 270px;
+    border:2px solid #ff6b28;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logoSpan1 {
+    font-family: "Podkova ExtraBold";
+    font-size: 20px;
+    line-height: 20px;
+    color: #ff9001;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.logoSpan2 {
+    font-family: "Podkova ExtraBold";
+    font-size: 62px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #ff9001;
+    text-align: left;
+}
+
+.logoSpan3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6em;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer .copyright {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.footMenu li {
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.footMenu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
