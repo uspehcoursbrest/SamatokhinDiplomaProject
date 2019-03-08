@@ -240,7 +240,9 @@ header .headMenu a {
 }
 
 .referal {
-    height: 650px;
+    height: 1310px;
+}
+.referal {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -620,4 +622,5 @@ header .headMenu a {
     text-transform: uppercase;
     color: #ffffff;
 }
+
 
