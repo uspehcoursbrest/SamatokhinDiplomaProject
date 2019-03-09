@@ -25,21 +25,23 @@ ul {
 }
 
 .logoSpan1 {
-    font-family: "Podkova ExtraBold";
+    font-family: "Podkova";
     font-size: 20px;
     line-height: 20px;
     color: #ff9001;
     text-transform: uppercase;
     text-align: left;
+    font-weight: 800;
 }
 
 .logoSpan2 {
-    font-family: "Podkova ExtraBold";
+    font-family: "Podkova";
     font-size: 62px;
     line-height: 42px;
     text-transform: uppercase;
     color: #ff9001;
     text-align: left;
+    font-weight: 800;
 }
 
 .logoSpan3 {
@@ -227,7 +229,6 @@ header .headMenu a {
 }
 
 .subscribe {
-    height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -239,9 +240,6 @@ header .headMenu a {
     background-position: center;
 }
 
-.referal {
-    height: 1310px;
-}
 .referal {
     background-size: cover;
     background-repeat: no-repeat;
