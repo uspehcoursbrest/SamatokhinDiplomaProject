@@ -24,6 +24,65 @@ ul {
     padding: 0 15px;
 }
 
+.clear::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header .logo {
+    width: 50%;
+    float: left;
+    background-color: #666666;
+}
+
+.logo span {
+    display: block;
+}
+
+.logo img {
+    float: left;
+}
+
+.logo img {
+    margin-right: 15px;
+}
+
+.logo span + span {
+    padding-bottom: 10px;
+}
+
+header .contacts {
+    width: 50%;
+    float: right;
+    background-color: #333333;
+}
+
+.contacts a:first-child {
+    float: left;
+}
+
+.contacts a:last-child {
+    float: right;
+}
+
+.contacts .phone {
+    float: right;
+    padding-right: 85px ;
+    margin-top: 70px;
+}
+
+.contacts .supp {
+    float: left;
+    padding-left: 65px;
+    margin-bottom: 20px;
+}
+header .container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .logoSpan1 {
     font-family: "Podkova";
     font-size: 20px;
@@ -53,11 +112,17 @@ ul {
     text-transform: uppercase;
 }
 
-header .phone {
+header .contacts .phone {
     font-size: 30px;
     line-height: 20px;
     color: #ff692a;
     text-decoration: none;
+}
+
+header .contacts .phone span {
+    font-size: 33px;
+    line-height: 20px;
+    font-weight: 700;
 }
 
 header .supp {
@@ -77,6 +142,18 @@ header .contacts a:not(.supp) {
     text-decoration: none;
 }
 
+.menu {
+    width: 100%;
+    display: inline-block;
+}
+.menu .headMenu li {
+    display: inline-block;
+}
+
+.headMenu li + li {
+    margin-left: 75px;
+}
+
 header .headMenu a {
     font-size: 17px;
     font-weight: 700;
@@ -85,6 +162,21 @@ header .headMenu a {
     color: #333333;
     text-transform: uppercase;
 }
+
+.welcome span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.welcome .userName {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ff9001;
+    font-weight: 700;
+}
+
+
 
 .tagline1 {
     font-size: 50px;
@@ -274,6 +366,7 @@ header .headMenu a {
     color: #05141b;
     text-transform: uppercase;
 }
+
 .selectPlan option {
     font-size: 17px;
     line-height: 30px;
@@ -332,7 +425,7 @@ header .headMenu a {
 }
 
 .profit div:nth-child(4) {
-   background-color: #ff9001;
+    background-color: #ff9001;
 }
 
 .profit div:last-child {
@@ -364,6 +457,7 @@ header .headMenu a {
     line-height: 30px;
     color: #ffffff;
 }
+
 .info b {
     font-size: 20px;
     line-height: 30px;
@@ -383,6 +477,7 @@ header .headMenu a {
     line-height: 24px;
     color: #ffffff;
 }
+
 .license span {
     font-size: 20px;
     line-height: 24px;
@@ -468,7 +563,7 @@ header .headMenu a {
     text-align: center;
     color: #ffffff;
     width: 270px;
-    border:2px solid #ffffff;
+    border: 2px solid #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -555,6 +650,7 @@ header .headMenu a {
     color: #05141b;
     text-align: center;
 }
+
 .referal .referalTitle {
     font-size: 40px;
     line-height: 30px;
@@ -570,7 +666,7 @@ header .headMenu a {
     text-align: center;
     color: #ff6b28;
     width: 270px;
-    border:2px solid #ff6b28;
+    border: 2px solid #ff6b28;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -602,7 +698,7 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.footer .copyright {
+.copyright {
     font-size: 15px;
     line-height: 24px;
     color: #ffffff;
@@ -621,4 +717,23 @@ header .headMenu a {
     color: #ffffff;
 }
 
+.footContacts span {
+    font-size: 15px;
+    line-height: 21px;
+    color: #ff9001;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footContacts span a {
+    font-size: 15px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.footContacts span:nth-child(3) a {
+    color: #ff6b28;
+    text-decoration: underline;
+    text-transform: none;
+}
 
