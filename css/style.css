@@ -359,6 +359,73 @@ header .headMenu a {
     background-position: center;
 }
 
+ .calculator .line1 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+ .selectPlan {
+     width: 50%;
+     float: left;
+ }
+ 
+ .enterAmount {
+     width: 50%;
+     float: left;
+ }
+
+ .profitForm1 {
+     width: 20%;
+     float: left;
+     padding: 0 20px;
+ }
+
+.profitForm2 {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+
+.profitForm3 {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+
+.totalProfit1 {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+
+.totalProfit2 {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
+
+.profit {
+    margin: 0 -20px;
+}
+
+.profit::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.profitForm1 {
+    background-color: #fceed9;
+}
+
+.profitForm2 {
+    background-color: #fceed9;
+}
+
+.profitForm3 {
+    background-color: #fceed9;
+}
+
 .selectPlan label {
     font-size: 17px;
     line-height: 30px;
@@ -377,21 +444,21 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
-    color: #05141b;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
 .enterAmount span:first-child {
     font-size: 17px;
     line-height: 30px;
-    color: #05141b;
+    color: #ffffff;
 }
 
 .enterAmount span:nth-child(2) {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
-    color: #05141b;
+    color: #ffffff;
 
 }
 
@@ -671,22 +738,33 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
+.payments li {
+    display: inline-block;
+}
+
+.payments li + li {
+    margin-left: 50px;
+    vertical-align: bottom;
+}
+
 .logoSpan1 {
-    font-family: "Podkova ExtraBold";
+    font-family: "Podkova";
     font-size: 20px;
     line-height: 20px;
     color: #ff9001;
     text-transform: uppercase;
     text-align: left;
+    font-weight: 700;
 }
 
 .logoSpan2 {
-    font-family: "Podkova ExtraBold";
+    font-family: "Podkova";
     font-size: 62px;
     line-height: 42px;
     text-transform: uppercase;
     color: #ff9001;
     text-align: left;
+    font-weight: 700;
 }
 
 .logoSpan3 {
@@ -735,5 +813,30 @@ header .headMenu a {
     color: #ff6b28;
     text-decoration: underline;
     text-transform: none;
+}
+
+.logoFoot {
+    width: 25%;
+    float: left;
+}
+
+.logoFoot span {
+    display: block;
+}
+
+.logoFoot img {
+    float: left;
+}
+
+.logoFoot img {
+    margin-right: 15px;
+}
+
+.logoFoot span + span {
+    padding-bottom: 10px;
+}
+
+footer .container {
+    display: inline-block;
 }
 
