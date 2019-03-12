@@ -206,6 +206,11 @@ header .headMenu a {
     letter-spacing: 0.35em;
 }
 
+.logSub a {
+    display: inline-block;
+    margin-left: 10px;
+}
+
 .btnColor2 {
     font-size: 17px;
     line-height: 100px;
@@ -353,7 +358,6 @@ header .headMenu a {
 }
 
 .footer {
-    height: 460px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -738,15 +742,6 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.payments li {
-    display: inline-block;
-}
-
-.payments li + li {
-    margin-left: 50px;
-    vertical-align: bottom;
-}
-
 .logoSpan1 {
     font-family: "Podkova";
     font-size: 20px;
@@ -836,7 +831,29 @@ header .headMenu a {
     padding-bottom: 10px;
 }
 
-footer .container {
+.footMenu ul {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+footer .leftMenu li {
     display: inline-block;
 }
 
+footer .rightMenu li {
+    display: inline-block;
+}
+
+.footContacts {
+    float: right;
+}
+
+.footContacts span {
+    display: block;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.footContacts span a {
+    display: block;
+}
