@@ -30,10 +30,31 @@ ul {
     clear: both;
 }
 
+
+.headWrap {
+    position: relative;
+    z-index: 1;
+}
+
+.headWrap .backImg {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 1650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.bodyWrap {
+    overflow: hidden;
+}
+
 header .logo {
     width: 50%;
     float: left;
-    background-color: #666666;
+    margin-top: 60px;
 }
 
 .logo span {
@@ -55,32 +76,8 @@ header .logo {
 header .contacts {
     width: 50%;
     float: right;
-    background-color: #333333;
-}
-
-.contacts a:first-child {
-    float: left;
-}
-
-.contacts a:last-child {
-    float: right;
-}
-
-.contacts .phone {
-    float: right;
-    padding-right: 85px ;
-    margin-top: 70px;
-}
-
-.contacts .supp {
-    float: left;
-    padding-left: 65px;
-    margin-bottom: 20px;
-}
-header .container::after {
-    content: '';
-    display: block;
-    clear: both;
+    padding-top: 60px;
+    display: inline-block;
 }
 
 .logoSpan1 {
@@ -112,17 +109,22 @@ header .container::after {
     text-transform: uppercase;
 }
 
-header .contacts .phone {
-    font-size: 30px;
+.contact a {
+    display: block;
+}
+
+.contacts .phone a span {
+    font-size: 33px;
     line-height: 20px;
     color: #ff692a;
     text-decoration: none;
 }
 
-header .contacts .phone span {
-    font-size: 33px;
+.contacts .phone a {
+    font-size: 30px;
     line-height: 20px;
     font-weight: 700;
+    color: #ff692a;
 }
 
 header .supp {
@@ -144,8 +146,10 @@ header .contacts a:not(.supp) {
 
 .menu {
     width: 100%;
-    display: inline-block;
+    float: left;
+    padding-top: 75px;
 }
+
 .menu .headMenu li {
     display: inline-block;
 }
@@ -159,7 +163,7 @@ header .headMenu a {
     font-weight: 700;
     line-height: 20px;
     text-decoration: none;
-    color: #333333;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -176,13 +180,16 @@ header .headMenu a {
     font-weight: 700;
 }
 
-
+.tagline {
+    text-align: left;
+    margin-top: 150px;
+}
 
 .tagline1 {
     font-size: 50px;
     font-weight: 700;
     line-height: 80px;
-    color: #333333;
+    color: #ffffff;
     text-transform: uppercase;
     text-align: left;
 }
@@ -192,7 +199,7 @@ header .headMenu a {
     font-size: 133px;
     line-height: 133px;
     font-weight: 700;
-    color: #333333;
+    color: #ffffff;
     text-transform: uppercase;
     text-align: left;
 }
@@ -200,7 +207,7 @@ header .headMenu a {
 .tagline3 {
     font-size: 25px;
     line-height: 70px;
-    color: #333333;
+    color: #ffffff;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 0.35em;
@@ -208,12 +215,14 @@ header .headMenu a {
 
 .logSub a {
     display: inline-block;
-    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 125px;
 }
 
 .btnColor2 {
+    display: block;
     font-size: 17px;
-    line-height: 100px;
+    line-height: 55px;
     text-align: center;
     color: #ffffff;
     width: 200px;
@@ -224,8 +233,9 @@ header .headMenu a {
 }
 
 .btnColor3 {
+    display: block;
     font-size: 17px;
-    line-height: 100px;
+    line-height: 55px;
     text-align: center;
     color: #ffffff;
     width: 200px;
@@ -233,6 +243,9 @@ header .headMenu a {
     border: none;
     text-decoration: none;
     text-transform: uppercase;
+}
+.loginOffers .captionLight {
+    margin-top: 245px;
 }
 
 .captionLight {
@@ -363,26 +376,32 @@ header .headMenu a {
     background-position: center;
 }
 
- .calculator .line1 {
+.calc {
+    width: 1175px;
+    height: 650px;
+    background-color: rgba(249, 214, 154, 0.77);
+}
+
+.calculator .line1 {
     display: inline-block;
     margin-left: 40px;
 }
 
- .selectPlan {
-     width: 50%;
-     float: left;
- }
- 
- .enterAmount {
-     width: 50%;
-     float: left;
- }
+.selectPlan {
+    width: 50%;
+    float: left;
+}
 
- .profitForm1 {
-     width: 20%;
-     float: left;
-     padding: 0 20px;
- }
+.enterAmount {
+    width: 50%;
+    float: left;
+}
+
+.profitForm1 {
+    width: 20%;
+    float: left;
+    padding: 0 20px;
+}
 
 .profitForm2 {
     width: 20%;
@@ -523,6 +542,39 @@ header .headMenu a {
     letter-spacing: 0.05em;
 }
 
+.about {
+    float: left;
+    width: 100%;
+}
+
+.info {
+    width: 50%;
+    float: left;
+}
+
+.license {
+    width: 50%;
+    float: right;
+    margin-right: -20px;
+}
+
+.about1 {
+    width: 100%;
+    float: left;
+}
+
+.item1 {
+    width: 260px;
+    height: 400px;
+    background-color: rgba(18, 28, 31, 0.77);
+}
+
+
+.video {
+    width: 100%;
+    float: left;
+}
+
 .info p {
     font-size: 17px;
     line-height: 30px;
@@ -629,6 +681,7 @@ header .headMenu a {
 }
 
 .btnBorder {
+    display: block;
     font-size: 24px;
     line-height: 30px;
     text-align: center;
@@ -740,6 +793,18 @@ header .headMenu a {
     border: 2px solid #ff6b28;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.payments .payList {
+    display: table;
+    width: 1170px;
+    height: 115px;
+}
+
+.payments .payList li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .logoSpan1 {
