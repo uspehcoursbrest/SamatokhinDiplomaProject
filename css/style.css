@@ -73,13 +73,6 @@ header .logo {
     padding-bottom: 10px;
 }
 
-header .contacts {
-    width: 50%;
-    float: right;
-    padding-top: 60px;
-    display: inline-block;
-}
-
 .logoSpan1 {
     font-family: "Podkova";
     font-size: 20px;
@@ -109,8 +102,51 @@ header .contacts {
     text-transform: uppercase;
 }
 
-.contact a {
+.contacts {
+    width: 50%;
+    float: right;
+    padding-top: 60px;
+    display: inline-block;
+}
+
+.contacts a {
     display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.contacts {
+    position: relative;
+}
+
+.contact {
+    margin-top: -30px;
+    padding-left: 210px;
+}
+
+.contacts span[class="icon-soc1"] {
+    display: block;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.contacts span[class="icon-support"] {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+span[class*="icon"] .path2, [class*="icon"]
+.path2::before {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .contacts .phone a span {
@@ -385,68 +421,77 @@ header .headMenu a {
 .calculator .line1 {
     display: inline-block;
     margin-left: 40px;
+    width: 100%;
+    padding-top: 80px;
 }
 
 .selectPlan {
     width: 50%;
     float: left;
+    display: block;
 }
 
 .enterAmount {
-    width: 50%;
+    width: 30%;
     float: left;
+    display: block;
+}
+
+.depositAmount {
+    width: 20%;
+    float: right;
+    display: block;
+    padding-left: 150px;
+    padding-top: -110px;
+}
+
+.profit {
+    width: 100%;
+    float: left;
+    margin: 0 -20px;
 }
 
 .profitForm1 {
-    width: 20%;
+    width: 190px;
+    height: 90px;
     float: left;
     padding: 0 20px;
+    background-color: #fceed9;
+    display: block;
 }
 
 .profitForm2 {
-    width: 20%;
+    display: block;
+    width: 190px;
+    height: 90px;
     float: left;
     padding: 0 20px;
+    background-color: #fceed9;
 }
 
 .profitForm3 {
-    width: 20%;
+    display: block;
+    width: 190px;
+    height: 90px;
     float: left;
     padding: 0 20px;
+    background-color: #fceed9;
 }
 
 .totalProfit1 {
-    width: 20%;
+    display: block;
+    width: 190px;
+    height: 90px;
     float: left;
     padding: 0 20px;
 }
 
 .totalProfit2 {
-    width: 20%;
+    display: block;
+    width: 190px;
+    height: 90px;
     float: left;
     padding: 0 20px;
-}
-
-.profit {
-    margin: 0 -20px;
-}
-
-.profit::after {
-    content: '';
-    display: block;
-    clear: both;
-}
-
-.profitForm1 {
-    background-color: #fceed9;
-}
-
-.profitForm2 {
-    background-color: #fceed9;
-}
-
-.profitForm3 {
-    background-color: #fceed9;
 }
 
 .selectPlan label {
@@ -467,22 +512,21 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
-    color: #ffffff;
+    color: #05141b;
     text-transform: uppercase;
 }
 
 .enterAmount span:first-child {
     font-size: 17px;
     line-height: 30px;
-    color: #ffffff;
+    color: #05141b;
 }
 
 .enterAmount span:nth-child(2) {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
-    color: #ffffff;
-
+    color: #05141b;
 }
 
 .runner label {
@@ -547,6 +591,9 @@ header .headMenu a {
     width: 100%;
 }
 
+.about1 p {
+    color: #ffffff;
+}
 .info {
     width: 50%;
     float: left;
@@ -635,6 +682,32 @@ header .headMenu a {
     color: #ffa42f;
 }
 
+.leftItem {
+    width: 50%;
+    float: left;
+    text-align: left;
+    position: relative;
+}
+
+.leftItem span[class*="icon"] {
+    display: block;
+    position: absolute;
+    left: 0;
+}
+
+.rightItem span[class*="icon"] {
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.rightItem {
+    width: 50%;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
 .advantages .leftItem span:nth-child(even) {
     font-size: 17px;
     line-height: 30px;
@@ -679,6 +752,23 @@ header .headMenu a {
     font-weight: 300;
     color: #06151c;
 }
+
+.subWrap {
+    display: table;
+}
+
+.subWrap span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.subWrap .btnBorder {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
 
 .btnBorder {
     display: block;

@@ -105,7 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="calculator" style="background-image: url(img/jpg/backgroundCalculator.jpg)">
+        <div class="calculator clear" style="background-image: url(img/jpg/backgroundCalculator.jpg)">
             <div class="container clear">
                 <div class="captionDark">
                     <span>your profit</span>
@@ -147,15 +147,17 @@
                                     <input type="text" name="entAmount" id="entAmount" placeholder="$">
                                 </div>
                             </form>
-                            <span>Deposit amount:</span>
-                            <span>3001 $</span>
+                            <div class="depositAmount">
+                                <span>Deposit amount:</span>
+                                <span>3001 $</span>
+                            </div>
                         </div>
                     </div>
                     <div class="runner">
                         <label for="selectAmount">Select amount:</label>
                         <input type="text" name="selectAmount" id="selectAmount">
                     </div>
-                    <div class="profit clear">
+                    <div class="profit">
                         <div class="profitForm1">
                             <span>Selected plan:</span>
                             <span>Plan 4</span>
@@ -177,15 +179,17 @@
                             <span>47335.60 $</span>
                         </div>
                     </div>
-                    <p class="getMoney">Get moneyAll payments are made after the end of the deposit period. The deposit
-                        is
-                        included in the
-                        payments.</p>
+                    <div class="getMoney">
+                        <p>Get moneyAll payments are made after the end of the deposit period.<br> The deposit
+                            is
+                            included in the
+                            payments.</p>
+                    </div>
                 </div>
                 <a href="#" class="btnColor1">get money</a>
             </div>
         </div>
-        <div class="about" style="background-image: url(img/jpg/backgroundAbout.jpg)">
+        <div class="about clear" style="background-image: url(img/jpg/backgroundAbout.jpg)">
             <div class="container clear">
                 <div class="captionLight">
                     <span>atlantic oil limited</span>
@@ -258,7 +262,7 @@
                 </div>
             </div>
         </div>
-        <div class="advantages" style="background-image: url(img/jpg/backgroundAdv.jpg)">
+        <div class="advantages clear" style="background-image: url(img/jpg/backgroundAdv.jpg)">
             <div class="container">
                 <div class="captionDark">
                     <span>Our advantages</span>
@@ -334,10 +338,12 @@
         </div>
         <div class="subscribe" style="background-image: url(img/jpg/backgroundSub.jpg)">
             <div class="container">
-                <img src="img/png/logoSub.png" alt="">
-                <span>atlantic oil limited</span>
-                <span>Start earning with us right now</span>
-                <a href="#" class="btnBorder">Sign up now</a>
+                <div class="subWrap">
+                    <img src="img/png/logoSub.png" alt="">
+                    <span>atlantic oil limited</span>
+                    <span>Start earning with us right now</span>
+                    <a href="#" class="btnBorder">Sign up now</a>
+                </div>
             </div>
         </div>
         <div class="statistics" style="background-image: url(img/jpg/backgroundStat.jpg)">
