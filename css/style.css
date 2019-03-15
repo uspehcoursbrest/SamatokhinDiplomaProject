@@ -782,6 +782,75 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
+.statBefore {
+    float: left;
+    text-align: left;
+}
+
+.statAfter {
+    float: right;
+    text-align: right;
+}
+
+.statistics .table1 {
+    display: table;
+    width: 100%;
+}
+
+.statistics .table1 li {
+    display: table-row;
+    height: 40px;
+}
+
+.statistics .table1 li span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.statistics .table1 li .name {
+    width: 300px;
+    padding-left: 20px;
+}
+
+.statistics .table1 li .sum {
+    text-align: left;
+    padding-right: 150px;
+}
+
+.statistics .table1 li img {
+    text-align: right;
+}
+
+.statistics .table2 {
+    display: table;
+    width: 100%;
+}
+
+.statistics .table2 li {
+    display: table-row;
+    height: 40px;
+}
+
+.statistics .table2 li span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.statistics .table2 li .name {
+    width: 300px;
+    padding-left: 20px;
+}
+
+.statistics .table2 li .sum {
+    text-align: left;
+    padding-right: 150px;
+}
+
+.statistics .table2 li img {
+    text-align: right;
+}
+
 .statistics [class*="icon"] {
     font-size: 85px;
 }
