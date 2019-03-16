@@ -412,33 +412,39 @@ header .headMenu a {
     width: 1175px;
     height: 650px;
     background-color: rgba(249, 214, 154, 0.77);
+    position: relative;
+
 }
 
-.calculator .line1 {
-    display: inline-block;
+.calculator .calc .line1 {
     margin-left: 40px;
-    width: 100%;
     padding-top: 80px;
 }
 
-.selectPlan {
-    width: 50%;
-    float: left;
+.calc .line1 div {
+    display: inline-block;
+}
+
+.calc .line1 div + div {
+    margin-left: 43px;
+}
+
+.calc .selectPlan {
     display: block;
 }
 
-.enterAmount {
-    width: 30%;
-    float: left;
+.calc .enterAmount {
     display: block;
 }
 
-.depositAmount {
-    width: 20%;
-    float: right;
+.calc .depositAmount {
     display: block;
-    padding-left: 150px;
-    padding-top: -110px;
+}
+
+.calc .depositAmount span:nth-child(2) {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
 }
 
 .profit {
@@ -447,45 +453,8 @@ header .headMenu a {
     margin: 0 -20px;
 }
 
-.profitForm1 {
-    width: 190px;
-    height: 90px;
-    float: left;
-    padding: 0 20px;
-    background-color: #fceed9;
-    display: block;
-}
-
-.profitForm2 {
-    display: block;
-    width: 190px;
-    height: 90px;
-    float: left;
-    padding: 0 20px;
-    background-color: #fceed9;
-}
-
-.profitForm3 {
-    display: block;
-    width: 190px;
-    height: 90px;
-    float: left;
-    padding: 0 20px;
-    background-color: #fceed9;
-}
-
-.totalProfit1 {
-    display: block;
-    width: 190px;
-    height: 90px;
-    float: left;
-    padding: 0 20px;
-}
-
-.totalProfit2 {
-    display: block;
-    width: 190px;
-    height: 90px;
+.profItem {
+    width: 20%;
     float: left;
     padding: 0 20px;
 }
@@ -498,10 +467,12 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.selectPlan option {
+.selectPlan select {
     font-size: 17px;
     line-height: 30px;
     color: #05141b;
+    width: 500px;
+    height: 55px;
 }
 
 .enterAmount label {
@@ -512,10 +483,10 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.enterAmount span:first-child {
-    font-size: 17px;
-    line-height: 30px;
-    color: #05141b;
+.enterAmount input {
+    width: 300px;
+    height: 55px;
+    text-align: right;
 }
 
 .enterAmount span:nth-child(2) {
@@ -562,11 +533,12 @@ header .headMenu a {
     background-color: #ff692a;
 }
 
-.calculator p {
+.calc .getMoney {
     font-size: 17px;
     line-height: 30px;
     color: #05141b;
     text-align: center;
+    padding-top: 55px;
 }
 
 .btnColor1 {
@@ -575,11 +547,14 @@ header .headMenu a {
     text-align: center;
     color: #ffffff;
     width: 210px;
+    height: 55px;
     background-color: #05141b;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    position: absolute;
+    left: 50%;
 }
 
 .about {
