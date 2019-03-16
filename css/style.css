@@ -107,16 +107,13 @@ header .logo {
     float: right;
     padding-top: 60px;
     display: inline-block;
+    position: relative;
 }
 
 .contacts a {
     display: block;
     text-align: center;
-    margin: 20px;
-}
-
-.contacts {
-    position: relative;
+    margin: 25px;
 }
 
 .contact {
@@ -129,6 +126,19 @@ header .logo {
     position: absolute;
     left: 200px;
     top: 60px;
+}
+
+.contact span {
+    font-size: 18px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.contact a {
+    font-size: 33px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ff692a;
 }
 
 .contacts span[class="icon-support"] {
@@ -147,20 +157,6 @@ span[class*="icon"] .path2, [class*="icon"]
     bottom: 0;
     left: 0;
     margin: auto;
-}
-
-.contacts .phone span {
-    font-size: 33px;
-    line-height: 20px;
-    color: #ff692a;
-    text-decoration: none;
-}
-
-.contacts .phone a {
-    font-size: 30px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #ff692a;
 }
 
 header .supp {
