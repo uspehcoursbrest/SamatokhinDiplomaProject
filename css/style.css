@@ -149,7 +149,7 @@ span[class*="icon"] .path2, [class*="icon"]
     margin: auto;
 }
 
-.contacts .phone a span {
+.contacts .phone span {
     font-size: 33px;
     line-height: 20px;
     color: #ff692a;
