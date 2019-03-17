@@ -389,7 +389,6 @@ header .headMenu a {
 }
 
 .payments {
-    height: 110px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -417,7 +416,7 @@ header .headMenu a {
 }
 
 .calculator .calc .line1 {
-    margin-left: 40px;
+    margin: 0 0 0 60px;
     padding-top: 80px;
 }
 
@@ -429,34 +428,46 @@ header .headMenu a {
     margin-left: 43px;
 }
 
-.calc .selectPlan {
-    display: block;
-}
-
-.calc .enterAmount {
-    display: block;
-}
-
-.calc .depositAmount {
-    display: block;
-}
-
 .calc .depositAmount span:nth-child(2) {
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
+    display: block;
 }
 
-.profit {
+.calc .profit {
     width: 100%;
     float: left;
-    margin: 0 -20px;
+    margin: 45px -10px 55px;
 }
 
-.profItem {
+.calc .profItem {
     width: 20%;
     float: left;
-    padding: 0 20px;
+    padding: 10px;
+
+}
+
+
+.profitForm1 {
+    background-color: #fcf0d9;
+    height: 90px;
+    width: 195px;
+    padding: 10px;
+}
+
+.profitForm3 {
+    background-color: #fcf0d9;
+    height: 90px;
+    width: 195px;
+    padding: 10px;
+}
+
+.profitForm2 {
+    background-color: #fcf0d9;
+    height: 90px;
+    width: 195px;
+    padding: 10px;
 }
 
 .selectPlan label {
@@ -468,6 +479,7 @@ header .headMenu a {
 }
 
 .selectPlan select {
+    display: block;
     font-size: 17px;
     line-height: 30px;
     color: #05141b;
@@ -484,6 +496,7 @@ header .headMenu a {
 }
 
 .enterAmount input {
+    display: block;
     width: 300px;
     height: 55px;
     text-align: right;
@@ -504,13 +517,25 @@ header .headMenu a {
     color: #05141b;
 }
 
+.runner input {
+    height: 90px;
+    width: 1050px;
+    display: block;
+}
+
+.calc .runner {
+    margin: 50px 0 0 60px;
+}
+
 .profit span:first-child {
+    display: block;
     font-size: 17px;
     line-height: 30px;
     text-align: center;
 }
 
 .profit span:nth-child(2) {
+    display: block;
     font-size: 24px;
     line-height: 30px;
     font-weight: 700;
@@ -525,12 +550,18 @@ header .headMenu a {
     color: #ffffff;
 }
 
-.profit div:nth-child(4) {
+.profit .totalProfit1 {
     background-color: #ff9001;
+    height: 90px;
+    width: 195px;
+    padding: 10px;
 }
 
-.profit div:last-child {
+.profit .totalProfit2 {
     background-color: #ff692a;
+    height: 90px;
+    width: 195px;
+    padding: 10px;
 }
 
 .calc .getMoney {
@@ -543,18 +574,24 @@ header .headMenu a {
 
 .btnColor1 {
     font-size: 17px;
-    line-height: 100px;
+    line-height: 55px;
     text-align: center;
     color: #ffffff;
     width: 210px;
-    height: 55px;
     background-color: #05141b;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     position: absolute;
-    left: 50%;
+    left: 41%;
+    bottom: -20px;
+}
+
+.infoWrap {
+    float: left;
+    width: 100%;
+    margin-top: 110px;
 }
 
 .about {
@@ -571,9 +608,13 @@ header .headMenu a {
 }
 
 .license {
-    width: 50%;
-    float: right;
-    margin-right: -20px;
+    width: 25%;
+    float: left;
+}
+
+.imgLicense {
+    float: left;
+    width: 25%;
 }
 
 .about1 {
@@ -581,12 +622,18 @@ header .headMenu a {
     float: left;
 }
 
-.item1 {
+.infoLicense {
     width: 260px;
     height: 400px;
     background-color: rgba(18, 28, 31, 0.77);
+    text-align: left;
+    padding: 20px;
+    position: relative;
 }
 
+.infoLicense > div {
+    padding: 8px;
+}
 
 .video {
     width: 100%;
@@ -597,6 +644,7 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
+    padding: 8px;
 }
 
 .info b {
@@ -626,17 +674,25 @@ header .headMenu a {
     color: #ff9001;
 }
 
+.about1 p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
 .checkCompany {
     font-size: 17px;
-    line-height: 100px;
+    line-height: 55px;
     text-align: center;
     color: #ffffff;
-    width: 260px;
     background-color: #fb6c28;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .about [class*="icon"] {
@@ -646,6 +702,25 @@ header .headMenu a {
 
 .about a:last-child {
     text-decoration: none;
+}
+
+.video {
+    width: 1170px;
+    height: 640px;
+    position: relative;
+    border: 1px solid #736d59;
+    margin-top: 110px;
+}
+
+.video a span[class="icon-video"] {
+    position: absolute;
+    top: 175px;
+    left: 500px;
+}
+
+.video span:last-child {
+    display: block;
+
 }
 
 .advantages [class*="icon"] {
@@ -1052,4 +1127,6 @@ footer .rightMenu li {
 .footContacts span a {
     display: block;
 }
+
+/*страница EDIT*/
 
