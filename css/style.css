@@ -276,6 +276,7 @@ header .headMenu a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .loginOffers .captionLight {
     margin-top: 245px;
 }
@@ -602,6 +603,7 @@ header .headMenu a {
 .about1 p {
     color: #ffffff;
 }
+
 .info {
     width: 50%;
     float: left;
@@ -718,21 +720,48 @@ header .headMenu a {
     left: 500px;
 }
 
-.video span:last-child {
+.video .captionVideo {
     display: block;
-
+    padding: 365px;
+    text-align: center;
+    color: #ffffff;
 }
+
+.video .captionVideo span:first-child {
+    display: block;
+    font-size: 18px;
+    line-height: 70px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.video .captionVideo span:last-child {
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.advantages .captionDark {
+    margin-top: 185px;
+}
+
+/*.advantages .logoAdv {*/
+    /*position: absolute;*/
+/*}*/
 
 .advantages [class*="icon"] {
-    font-size: 60px;
-    color: #ffa42f;
+    font-size: 65px;
 }
 
-.leftItem {
+.advantages ul li {
+    padding-bottom: 75px;
+}
+
+.advantages .leftItem {
     width: 50%;
     float: left;
     text-align: left;
     position: relative;
+    padding: 70px;
 }
 
 .leftItem span[class*="icon"] {
@@ -747,11 +776,20 @@ header .headMenu a {
     right: 0;
 }
 
-.rightItem {
+.leftItem ul li div {
+    padding-left: 75px;
+}
+
+.rightItem ul li div {
+    padding-right: 75px;
+}
+
+.advantages .rightItem {
     width: 50%;
     float: right;
     text-align: right;
     position: relative;
+    padding: 70px;
 }
 
 .advantages .leftItem span:nth-child(even) {
@@ -819,11 +857,11 @@ header .headMenu a {
 .btnBorder {
     display: block;
     font-size: 24px;
-    line-height: 30px;
+    height: 70px;
     text-align: center;
     color: #ffffff;
     width: 270px;
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
     text-decoration: none;
     text-transform: uppercase;
 }
