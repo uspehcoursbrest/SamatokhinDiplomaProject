@@ -1124,12 +1124,13 @@ header .headMenu a {
     line-height: 24px;
     color: #ffffff;
     text-align: left;
+    padding-bottom: 30px;
 }
 
 .statTextWrap {
     float: left;
     width: 100%;
-    margin: 200px;
+    margin: 200px 0px 110px 0px
 }
 
 .statisticsText {
