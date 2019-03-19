@@ -908,6 +908,7 @@ header .headMenu a {
 .subWrap .tCell {
     display: table-cell;
     vertical-align: middle;
+    padding-left: 50px;
 }
 
 /*.subWrap span {*/
@@ -1070,6 +1071,41 @@ header .headMenu a {
     color: #ffa42f;
 }
 
+.diagramm div span {
+    display: block;
+}
+
+.diagramm {
+    width: 470px;
+    height: 470px;
+    left: 30%;
+    top: 175px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.diagramm div:first-child {
+    position: absolute;
+    left: 40%;
+    top: 140px;
+    text-align: center;
+}
+
+.diagramm div:nth-child(2) {
+    position: absolute;
+    left: 110px;
+    bottom: 150px;
+    text-align: right;
+}
+
+.diagramm div:last-child {
+    position: absolute;
+    right: 140px;
+    bottom: 150px;
+    text-align: left;
+}
+
 .statistics .diagramm span:nth-child(odd) {
     font-size: 25px;
     line-height: 32px;
@@ -1133,23 +1169,6 @@ header .headMenu a {
     text-align: center;
 }
 
-.referal .procent .big {
-    font-size: 155px;
-    line-height: 57px;
-    font-weight: 700;
-    color: #05141b;
-    text-align: center;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
-    background: #ff692a; /* Old browsers */
-    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    box-shadow: 0px 0px 27px 22px #000000;
-}
-
 .referal .referalTitle {
     font-size: 40px;
     line-height: 30px;
@@ -1164,6 +1183,7 @@ header .headMenu a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 325px;
 }
 
 .btnBorderGrad {
@@ -1184,6 +1204,40 @@ header .headMenu a {
     -webkit-text-fill-color: transparent;
     box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.24);
     border: 3px solid rgba(252, 107, 40, 100);
+}
+
+.referal .procent {
+    width: 470px;
+    height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 30%;
+    top: 0;
+    position: relative;
+}
+
+.referal .procent .big {
+    position: absolute;
+    left: 30%;
+    top: 127px;
+    font-size: 155px;
+    font-weight: 700;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 27px 22px #000000;
+}
+
+.referal .signUp {
+    text-align: center;
+    margin-top: 55px;
+    padding-bottom: 135px;
 }
 
 .payments .payList {
@@ -1259,6 +1313,7 @@ header .headMenu a {
     font-size: 15px;
     line-height: 21px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .footContacts span:nth-child(3) a {
@@ -1273,7 +1328,7 @@ header .headMenu a {
 }
 
 .logoFoot span {
-    display:block;
+    display: block;
 }
 
 .logoFoot div {
