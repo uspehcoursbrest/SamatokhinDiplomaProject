@@ -30,6 +30,23 @@ ul {
     clear: both;
 }
 
+.invisLink {
+    position: relative;
+    z-index: 1;
+}
+
+.invisLink > a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
 
 .headWrap {
     position: relative;
@@ -199,19 +216,6 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.welcome span {
-    font-size: 17px;
-    line-height: 30px;
-    color: #ffffff;
-}
-
-.welcome .userName {
-    font-size: 17px;
-    line-height: 30px;
-    color: #ff9001;
-    font-weight: 700;
-}
-
 .tagline {
     text-align: left;
     margin-top: 150px;
@@ -262,6 +266,7 @@ header .headMenu a {
     border: none;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .btnColor3 {
@@ -275,6 +280,7 @@ header .headMenu a {
     border: none;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.11);
 }
 
 .loginOffers .captionLight {
@@ -375,6 +381,12 @@ header .headMenu a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+1,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 1%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 1%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 1%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
 }
 
 .statistics {
@@ -449,12 +461,13 @@ header .headMenu a {
 
 }
 
-
 .profitForm1 {
     background-color: #fcf0d9;
     height: 90px;
     width: 195px;
     padding: 10px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
+    border: 1px solid #05141b;
 }
 
 .profitForm3 {
@@ -462,6 +475,8 @@ header .headMenu a {
     height: 90px;
     width: 195px;
     padding: 10px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
+    border: 1px solid #05141b;
 }
 
 .profitForm2 {
@@ -469,6 +484,8 @@ header .headMenu a {
     height: 90px;
     width: 195px;
     padding: 10px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
+    border: 1px solid #05141b;
 }
 
 .selectPlan label {
@@ -486,6 +503,7 @@ header .headMenu a {
     color: #05141b;
     width: 500px;
     height: 55px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
 .enterAmount label {
@@ -501,6 +519,7 @@ header .headMenu a {
     width: 300px;
     height: 55px;
     text-align: right;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
 .enterAmount span:nth-child(2) {
@@ -556,6 +575,7 @@ header .headMenu a {
     height: 90px;
     width: 195px;
     padding: 10px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
 .profit .totalProfit2 {
@@ -563,6 +583,7 @@ header .headMenu a {
     height: 90px;
     width: 195px;
     padding: 10px;
+    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.11);
 }
 
 .calc .getMoney {
@@ -587,6 +608,7 @@ header .headMenu a {
     position: absolute;
     left: 41%;
     bottom: -20px;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.21);
 }
 
 .infoWrap {
@@ -619,6 +641,10 @@ header .headMenu a {
     width: 25%;
 }
 
+.imgLicense img {
+    border: 1px solid rgba(255,255,255,0.29);
+}
+
 .about1 {
     width: 100%;
     float: left;
@@ -631,6 +657,7 @@ header .headMenu a {
     text-align: left;
     padding: 20px;
     position: relative;
+    border: 1px solid rgba(255,255,255,0.29);
 }
 
 .infoLicense > div {
@@ -640,6 +667,8 @@ header .headMenu a {
 .video {
     width: 100%;
     float: left;
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.89);
+    border: 1px solid rgba(255,255,255,0.29);
 }
 
 .info p {
@@ -686,7 +715,6 @@ header .headMenu a {
     line-height: 55px;
     text-align: center;
     color: #ffffff;
-    background-color: #fb6c28;
     border: none;
     text-decoration: none;
     text-transform: uppercase;
@@ -695,6 +723,12 @@ header .headMenu a {
     position: absolute;
     bottom: 0;
     left: 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
 }
 
 .about [class*="icon"] {
@@ -745,7 +779,7 @@ header .headMenu a {
 }
 
 /*.advantages .logoAdv {*/
-    /*position: absolute;*/
+/*position: absolute;*/
 /*}*/
 
 .advantages [class*="icon"] {
@@ -864,6 +898,7 @@ header .headMenu a {
     border: 3px solid #ffffff;
     text-decoration: none;
     text-transform: uppercase;
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.11);
 }
 
 .statBefore {
@@ -878,7 +913,9 @@ header .headMenu a {
 
 .statistics .table1 {
     display: table;
-    width: 100%;
+    width: 300px;
+    box-shadow: 11px 0px 21px 0px rgba(0,0,0,0.53);
+    border: 1px solid rgba(255,255,255,0.29);
 }
 
 .statistics .table1 li {
@@ -907,7 +944,9 @@ header .headMenu a {
 
 .statistics .table2 {
     display: table;
-    width: 100%;
+    width: 300px;
+    box-shadow: 11px 0px 21px 0px rgba(0,0,0,0.53);
+    border: 1px solid rgba(255,255,255,0.29);
 }
 
 .statistics .table2 li {
@@ -937,6 +976,7 @@ header .headMenu a {
 
 .statistics [class*="icon"] {
     font-size: 85px;
+    position: absolute;
 }
 
 .statistics .titleLight {
@@ -995,6 +1035,34 @@ header .headMenu a {
     text-align: left;
 }
 
+.statTextWrap {
+    float: left;
+    width: 100%;
+}
+
+.statisticsText {
+    float: left;
+    width: calc(100% - 715px);
+    padding: 30px;
+}
+
+.scaleStat {
+    float: left;
+    width: 715px;
+    height: 320px;
+    border: 1px solid #ffffff;
+}
+
+.tablesWrap {
+    position: relative;
+}
+
+.tablesWrap .diagramm {
+    display: block;
+    position: absolute;
+}
+
+
 .referal p:nth-child(2) {
     font-size: 20px;
     line-height: 30px;
@@ -1016,6 +1084,15 @@ header .headMenu a {
     font-weight: 700;
     color: #05141b;
     text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0px 0px 27px 22px #000000;
 }
 
 .referal .referalTitle {
@@ -1023,19 +1100,35 @@ header .headMenu a {
     line-height: 30px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ff6b28;
     text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .btnBorderGrad {
+    font-weight: 700;
     font-size: 24px;
     line-height: 100px;
     text-align: center;
-    color: #ff6b28;
     width: 270px;
-    border: 2px solid #ff6b28;
     text-decoration: none;
     text-transform: uppercase;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 0%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0px 0px 33px 0px rgba(0,0,0,0.24);
+    border: 3px solid rgba(252,107,40,100);
 }
 
 .payments .payList {
@@ -1166,5 +1259,187 @@ footer .rightMenu li {
     display: block;
 }
 
+footer {
+    display: inline-block;
+}
+
 /*страница EDIT*/
+
+.headWrapEdit {
+    position: relative;
+    z-index: 1;
+}
+
+.headWrapEdit .backImg {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 1575px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.welcome span {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.welcome .userName {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ff9001;
+    font-weight: 700;
+}
+
+.welcome a {
+    text-decoration: none;
+}
+
+.user span:nth-child(2) {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.user span:nth-child(3) {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ff9001;
+}
+
+.user a {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff692a;
+}
+
+.lastSeen span:first-child {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.lastSeen span:nth-child(even) {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ff9001;
+    font-weight: 700;
+}
+
+.lastSeen span:nth-child(3) {
+    font-size: 15px;
+    line-height: 12px;
+    color: #ffffff;
+}
+
+.deposit span {
+    font-size: 24px;
+    line-height: 100px;
+    color: #05141b;
+    text-transform: uppercase;
+
+}
+
+.withdraw span {
+    font-size: 24px;
+    line-height: 100px;
+    color: #05141b;
+    text-transform: uppercase;
+}
+
+.yourBalance span:nth-child(2) {
+    font-size: 20px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.yourBalance span:last-child {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff9001;
+}
+
+.tablePay span {
+    font-size: 20px;
+    line-height: 53px;
+    color: #ff9001;
+    font-weight: 700;
+}
+
+.menuEdit .headMenuEdit li {
+    display: inline-block;
+}
+
+.headMenuEdit li + li {
+    margin-left: 23px;
+}
+
+header .headMenuEdit a {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.editAccount h2 {
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.editAccount h3 {
+    font-size: 24px;
+    line-height: 70px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.editAccount label {
+    font-size: 17px;
+    line-height: 100px;
+    color: #ffffff;
+}
+
+.editAccount input {
+    font-size: 15px;
+    line-height: 100px;
+    color: #989898;
+    width: 310px;
+    height: 45px;
+}
+
+.editAccount label span {
+    color: #ff6a29;
+}
+
+.editAccount button {
+    font-size: 17px;
+    line-height: 100px;
+    width: 400px;
+    height: 45px;
+    color: #fc6b28;
+    text-transform: uppercase;
+    border: 3px solid #fc6b28;
+    text-align: center;
+}
+
+.editCopyright span {
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+}
 
