@@ -1408,23 +1408,6 @@ footer {
     z-index: -1;
 }
 
-.welcome span {
-    font-size: 17px;
-    line-height: 30px;
-    color: #ffffff;
-}
-
-.welcome .userName {
-    font-size: 17px;
-    line-height: 30px;
-    color: #ff9001;
-    font-weight: 700;
-}
-
-.welcome a {
-    text-decoration: none;
-}
-
 .user span:nth-child(2) {
     font-size: 15px;
     line-height: 20px;
@@ -1570,3 +1553,130 @@ header .headMenuEdit a {
     text-align: center;
 }
 
+header .editContacts [class*="icon"] {
+    font-size: 55px;
+}
+
+header .editContacts a:not(.supp) {
+    text-decoration: none;
+}
+
+.personal div {
+    display: inline-block;
+}
+
+.editContact a {
+    font-size: 33px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ff692a;
+    display: block;
+    text-align: center;
+}
+
+.editContact span {
+    font-size: 18px;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+.editContact .supp {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #ff9001;
+}
+
+.welcome span {
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.welcome .userName {
+    font-size: 17px;
+    line-height: 30px;
+    color: #ff9001;
+    font-weight: 700;
+}
+
+.welcome a {
+    text-decoration: none;
+}
+
+.personal .editContacts {
+    float: left;
+    margin-right: 100px;
+
+}.welcome {
+     float: left;
+ }
+
+.personalData {
+    width: 100%;
+    float: left;
+}
+
+.itemData {
+    width: 260px;
+    height: 110px;
+    float: left;
+    padding: 0 21px;
+}
+
+.itemData .user {
+    display: block;
+    background-color: rgba(35,28,25,0.55);
+}
+
+
+.itemData .lastSeen {
+    display: block;
+    background-color: rgba(35,28,25,0.55);
+}
+
+.itemData .deposit {
+    display: block;
+    background-color: #ff692a;
+}
+
+.itemData .withdraw {
+    display: block;
+    background-color: #ff9001;
+}
+
+.menuEditWrap {
+    width: 1167px;
+    height: 55px;
+    background-color: #05141b;
+}
+
+.balance {
+    width: 100%;
+    float: left;
+}
+
+.balance .yourBalance {
+    float: left;
+    width: 25%;
+}
+
+.balance .tablePay {
+    float: left;
+    width: 75%;
+}
+
+.tablePay li {
+    display: inline-block;
+}
+
+.editWrap {
+    float: left;
+    width: 100%;
+}
+
+.editForm {
+    float: left;
+    width: 33.333%;
+}
