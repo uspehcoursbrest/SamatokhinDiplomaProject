@@ -48,6 +48,10 @@ ul {
     white-space: nowrap;
 }
 
+[class*="icon"] {
+    position: relative;
+}
+
 .headWrap {
     position: relative;
     z-index: 1;
@@ -165,8 +169,12 @@ header .logo {
     top: 60px;
 }
 
-span[class*="icon"] .path2, [class*="icon"]
-.path2::before {
+span[class*="icon"] .path2,
+[class*="icon"] .path2::before,
+span[class*="icon"] .path3,
+[class*="icon"] .path3::before,
+span[class*="icon"] .path4,
+[class*="icon"] .path4::before {
     display: inline-block;
     position: absolute;
     top: 0;
@@ -336,33 +344,37 @@ header .headMenu a {
 
 .sliderOffers [class*="icon"] {
     font-size: 92px;
+    display: block;
 }
 
-.sliderOffers span:first-child {
+.sliderOffers [class*="card"] > span:first-child {
     font-size: 70px;
     line-height: 40px;
     font-weight: 700;
     color: #333333;
 }
 
-.sliderOffers span:nth-child(3) {
+.sliderOffers [class*="card"] > span:nth-child(3) {
     font-size: 45px;
     line-height: 40px;
     font-weight: 700;
     color: #ff9001;
+    display: block;
 }
 
-.sliderOffers span:nth-child(4) {
+.sliderOffers [class*="card"] > span:nth-child(4) {
     font-size: 18px;
     line-height: 30px;
     color: #ff692a;
     font-weight: 300;
+    display: block;
 }
 
 .calculator {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 370px;
 }
 
 .about {
@@ -748,6 +760,17 @@ header .headMenu a {
     margin-top: 110px;
 }
 
+.video [class*="icon"] {
+    line-height: 150px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    background-image: url(../img/png/videoback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 100px;
+}
+
 .video a span[class="icon-video"] {
     position: absolute;
     top: 175px;
@@ -788,6 +811,7 @@ header .headMenu a {
 
 .advantages ul li {
     padding-bottom: 75px;
+    position: relative;
 }
 
 .advantages .leftItem {
@@ -808,6 +832,7 @@ header .headMenu a {
     display: block;
     position: absolute;
     right: 0;
+    top: 0;
 }
 
 .leftItem ul li div {
@@ -826,13 +851,13 @@ header .headMenu a {
     padding: 70px;
 }
 
-.advantages .leftItem span:nth-child(even) {
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #05141b;
-    text-transform: uppercase;
-}
+/*.advantages .leftItem span:nth-child(even) {*/
+    /*font-size: 17px;*/
+    /*line-height: 30px;*/
+    /*font-weight: 700;*/
+    /*color: #05141b;*/
+    /*text-transform: uppercase;*/
+/*}*/
 
 .advantages .leftItem p {
     font-size: 17px;
@@ -841,13 +866,13 @@ header .headMenu a {
     color: #05141b;
 }
 
-.advantages .rightItem span:nth-child(even) {
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #05141b;
-    text-transform: uppercase;
-}
+/*.advantages .rightItem span:nth-child(even) {*/
+    /*font-size: 17px;*/
+    /*line-height: 30px;*/
+    /*font-weight: 700;*/
+    /*color: #05141b;*/
+    /*text-transform: uppercase;*/
+/*}*/
 
 .advantages .rightItem p {
     font-size: 17px;
@@ -856,7 +881,8 @@ header .headMenu a {
     color: #05141b;
 }
 
-.subscribe span:nth-child(2) {
+.subscribe .tCell span:nth-child(1) {
+    display: block;
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;
@@ -864,7 +890,8 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.subscribe span:nth-child(3) {
+.subscribe .tCell span:nth-child(2) {
+    display: block;
     font-size: 30px;
     line-height: 50px;
     font-weight: 300;
@@ -875,23 +902,29 @@ header .headMenu a {
     display: table;
 }
 
-.subWrap span {
+.subWrap .tCell {
     display: table-cell;
-    text-align: center;
     vertical-align: middle;
 }
 
-.subWrap .btnBorder {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
+/*.subWrap span {*/
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*.subWrap .btnBorder {*/
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
 
 
 .btnBorder {
     display: block;
     font-size: 24px;
     height: 70px;
+    line-height: 70px;
     text-align: center;
     color: #ffffff;
     width: 270px;
@@ -909,6 +942,16 @@ header .headMenu a {
 .statAfter {
     float: right;
     text-align: right;
+}
+
+.tableTitle {
+    position: relative;
+    padding-left: 105px;
+}
+
+.tableTitle [class*="icon"] {
+    top: 0;
+    left: 0;
 }
 
 .statistics .table1 {
@@ -929,13 +972,17 @@ header .headMenu a {
 }
 
 .statistics .table1 li .name {
-    width: 300px;
+    width: 145px;
     padding-left: 20px;
 }
 
 .statistics .table1 li .sum {
     text-align: left;
-    padding-right: 150px;
+}
+
+.statistics .table1 li .img {
+    text-align: right;
+    padding-right: 4px;
 }
 
 .statistics .table1 li img {
@@ -981,7 +1028,7 @@ header .headMenu a {
 
 .statistics .titleLight {
     font-size: 25px;
-    line-height: 48px;
+    line-height: 25px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
