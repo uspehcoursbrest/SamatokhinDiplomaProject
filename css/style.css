@@ -1613,11 +1613,6 @@ header .editContacts a:not(.supp) {
      float: left;
  }
 
-.personalData {
-    width: 100%;
-    float: left;
-}
-
 .itemData {
     width: 260px;
     height: 110px;
@@ -1652,11 +1647,6 @@ header .editContacts a:not(.supp) {
     background-color: #05141b;
 }
 
-.balance {
-    width: 100%;
-    float: left;
-}
-
 .balance .yourBalance {
     float: left;
     width: 25%;
@@ -1680,4 +1670,9 @@ header .editContacts a:not(.supp) {
     float: left;
     width: 33.333%;
 }
-
+.editWrap .editForm form {
+    width: 360px;
+    height: 400px;
+    border: 1px solid #ffffff;
+    padding: 30px 25px 90px;
+}
