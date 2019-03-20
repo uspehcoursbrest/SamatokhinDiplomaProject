@@ -211,6 +211,7 @@ header .contacts a:not(.supp) {
     display: inline-block;
     position: relative;
 }
+
 .menu .headMenu li + li {
     margin-left: 75px;
 }
@@ -311,10 +312,93 @@ header .headMenu a {
 
 .captionLight {
     text-align: center;
+    position: relative;
+}
+
+.loginOffers .captionLight::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9001;
+    position: absolute;
+    left: 50%;
+    margin-top: -40px;
 }
 
 .captionDark {
     text-align: center;
+    position: relative;
+}
+
+.calculator .captionDark {
+    padding: 185px 0px 110px;
+}
+
+.calculator .captionDark::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9001;
+    position: absolute;
+    left: 50%;
+    margin-top: -40px;
+}
+
+.about .captionLight::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9001;
+    position: absolute;
+    left: 50%;
+    margin-top: -40px;
+}
+
+.about .captionLight {
+    padding: 125px 0 120px;
+}
+
+.advantages .captionDark::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9001;
+    position: absolute;
+    left: 50%;
+    margin-top: -40px;
+}
+
+.advantages .captionDark {
+    padding: 185px 0px 160px;
+}
+
+.referal .captionDark {
+    padding: 185px 0px 30px;
+}
+
+.referal .captionDark::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ff9001;
+    position: absolute;
+    left: 50%;
+    margin-top: -40px;
 }
 
 .captionLight span {
@@ -433,11 +517,18 @@ header .headMenu a {
     background-position: center;
 }
 
-.location {
-    height: 450px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.location .map {
+    position: relative;
+    width: 1920px;
+    height: 640px;
+}
+
+.location .map iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
 }
 
 .footer {
@@ -644,7 +735,6 @@ header .headMenu a {
 }
 
 .about {
-    float: left;
     width: 100%;
 }
 
@@ -812,9 +902,6 @@ header .headMenu a {
     line-height: 70px;
 }
 
-.advantages .captionDark {
-    margin-top: 185px;
-}
 
 /*.advantages .logoAdv {*/
 /*position: absolute;*/
@@ -918,6 +1005,7 @@ header .headMenu a {
 
 .subWrap {
     display: table;
+    padding: 70px 0px 60px;
 }
 
 .subWrap .tCell {
@@ -951,6 +1039,7 @@ header .headMenu a {
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 0px 0px 33px 0px rgba(0, 0, 0, 0.11);
+    margin-left: 90px;
 }
 
 .statBefore {
@@ -1151,6 +1240,7 @@ header .headMenu a {
 .statisticsText {
     float: left;
     width: calc(100% - 715px);
+    padding: 0px 150px 0px 0px;
 }
 
 .scaleStat {
@@ -1623,10 +1713,11 @@ header .editContacts a:not(.supp) {
 .personal .editContacts {
     float: left;
     margin-right: 100px;
+}
 
-}.welcome {
-     float: left;
- }
+.welcome {
+    float: left;
+}
 
 .itemData {
     width: 260px;
@@ -1637,13 +1728,13 @@ header .editContacts a:not(.supp) {
 
 .itemData .user {
     display: block;
-    background-color: rgba(35,28,25,0.55);
+    background-color: rgba(35, 28, 25, 0.55);
 }
 
 
 .itemData .lastSeen {
     display: block;
-    background-color: rgba(35,28,25,0.55);
+    background-color: rgba(35, 28, 25, 0.55);
 }
 
 .itemData .deposit {
@@ -1685,6 +1776,7 @@ header .editContacts a:not(.supp) {
     float: left;
     width: 33.333%;
 }
+
 .editWrap .editForm form {
     width: 360px;
     height: 400px;
