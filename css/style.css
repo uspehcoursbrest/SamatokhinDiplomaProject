@@ -1448,9 +1448,6 @@ header .headMenu a {
     display: block;
 }
 
-.logoFoot div {
-    margin: 60px 150px 0px 0px;
-}
 
 .logoFoot img {
     float: left;
@@ -1466,14 +1463,16 @@ header .headMenu a {
 
 .footMenu {
     float: left;
-    padding: 75px 0;
-    margin-left: 40px;
+    padding: 85px 10px;
+    margin-left: 80px;
     position: relative;
 }
-
+.logoFoot div:nth-child(2) {
+    padding: 0px 0px 60px 100px;
+}
 .footMenu ul {
     display: inline-block;
-    margin-left: 30px;
+    padding: 0px 90px 0px 0px;
 }
 
 footer .footMenu li + li::before {
@@ -1492,12 +1491,11 @@ footer .footMenu li + li::before {
 
 .footContacts {
     float: left;
-    padding: 60px 0;
+    padding: 75px 0;
 }
 
 .footContacts span {
     display: block;
-    margin-left: 100px;
     padding: 25px;
 }
 
