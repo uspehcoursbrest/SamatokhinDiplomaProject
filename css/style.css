@@ -1409,7 +1409,8 @@ header .headMenu a {
     font-size: 15px;
     line-height: 50px;
     font-weight: 700;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
 }
 
 .footMenu li a {
@@ -1448,7 +1449,6 @@ header .headMenu a {
     display: block;
 }
 
-
 .logoFoot img {
     float: left;
 }
@@ -1465,7 +1465,6 @@ header .headMenu a {
     float: left;
     padding: 85px 10px;
     margin-left: 80px;
-    position: relative;
 }
 .logoFoot div:nth-child(2) {
     padding: 0px 0px 60px 100px;
@@ -1475,7 +1474,7 @@ header .headMenu a {
     padding: 0px 90px 0px 0px;
 }
 
-footer .footMenu li + li::before {
+.footMenu li + li::before {
     content: '';
     display: block;
     width: 14px;
@@ -1484,8 +1483,8 @@ footer .footMenu li + li::before {
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    left: calc(100% + 30px);
-    top: 50%;
+    right: calc(100% + 15px);
+    top: 38%;
     margin-top: -7px;
 }
 
