@@ -568,7 +568,6 @@ header .headMenu a {
 .calc .profit {
     width: 100%;
     float: left;
-    /*margin: 45px -10px 55px;*/
     padding: 0px 50px;
 }
 
@@ -1466,9 +1465,11 @@ header .headMenu a {
     padding: 85px 10px;
     margin-left: 80px;
 }
+
 .logoFoot div:nth-child(2) {
     padding: 0px 0px 60px 100px;
 }
+
 .footMenu ul {
     display: inline-block;
     padding: 0px 90px 0px 0px;
@@ -1665,8 +1666,15 @@ header .headMenuEdit a {
     text-align: center;
 }
 
-header .editContacts [class*="icon"] {
+.editContacts [class*="icon"] {
     font-size: 55px;
+}
+
+.welcome [class*="icon"] {
+    font-size: 55px;
+    position: absolute;
+    top: 13px;
+    right: -78px;
 }
 
 header .editContacts a:not(.supp) {
@@ -1684,6 +1692,7 @@ header .editContacts a:not(.supp) {
     color: #ff692a;
     display: block;
     text-align: center;
+    padding: 15px 0px 0px 15px;
 }
 
 .editContact span {
@@ -1699,9 +1708,8 @@ header .editContacts a:not(.supp) {
     color: #ff9001;
 }
 
-.welcome span {
+.personal .welcome span:first-child {
     display: block;
-    font-size: 17px;
     line-height: 30px;
     color: #ffffff;
 }
@@ -1719,39 +1727,75 @@ header .editContacts a:not(.supp) {
 
 .personal .editContacts {
     float: left;
-    margin-right: 100px;
+    margin: 54px 0px 0px -100px;
 }
 
 .welcome {
     float: left;
+    margin: 63px 0px 0px 110px;
+    position: relative;
+
 }
 
-.itemData {
-    width: 260px;
-    height: 110px;
+.personalData {
+    margin: 0 -21px;
+}
+
+.personalData .lastSeen div {
+    padding: 10px 95px 10px 20px
+}
+
+.personalData [class*="icon"] {
+    font-size: 55px;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+
+.personalData .itemData {
+    width: 25%;
     float: left;
-    padding: 0 21px;
+    padding: 30px 22px;
+}
+
+.personalData .user div {
+    padding: 0px 0px 14px 2px;
 }
 
 .itemData .user {
     display: block;
     background-color: rgba(35, 28, 25, 0.55);
+    padding: 20px 0px 17px 105px;
+    position: relative;
+    border: 1px solid #4d5254;
 }
 
+.personalData .user img {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
 
 .itemData .lastSeen {
     display: block;
     background-color: rgba(35, 28, 25, 0.55);
+    border: 1px solid #4d5254;
 }
 
 .itemData .deposit {
+    position: relative;
     display: block;
     background-color: #ff692a;
+    text-align: center;
+    padding: 12px 0px 12px 65px;
 }
 
 .itemData .withdraw {
+    position: relative;
     display: block;
     background-color: #ff9001;
+    text-align: center;
+    padding: 12px 0px 12px 65px;
 }
 
 .menuEditWrap {
@@ -1760,15 +1804,10 @@ header .editContacts a:not(.supp) {
     background-color: #05141b;
 }
 
-.balance .yourBalance {
-    float: left;
-    width: 25%;
-}
-
-.balance .tablePay {
-    float: left;
-    width: 75%;
-}
+/*.balance .tablePay {*/
+    /*float: left;*/
+    /*width: 75%;*/
+/*}*/
 
 .tablePay li {
     display: inline-block;
@@ -1790,3 +1829,25 @@ header .editContacts a:not(.supp) {
     border: 1px solid #ffffff;
     padding: 30px 25px 90px;
 }
+
+.balance [class*="icon"] {
+    font-size: 55px;
+}
+
+.balance .yourBalance {
+    width: 25%;
+    float: left;
+}
+
+.balance .tablePay .tablePayList {
+    width: 25%;
+    float: left;
+    background-color: rgba(12, 9, 7, 0.55);
+}
+
+.balance .balanceWrap {
+    width: 300px;
+    height: 110px;
+    background-color: rgba(56, 37, 19, 0.55);
+}
+
