@@ -1449,11 +1449,7 @@ header .headMenu a {
 }
 
 .logoFoot div {
-    margin: 75px;
-}
-
-footer > div {
-    margin: 20px;
+    margin: 60px 150px 0px 0px;
 }
 
 .logoFoot img {
@@ -1472,6 +1468,7 @@ footer > div {
     float: left;
     padding: 75px 0;
     margin-left: 40px;
+    position: relative;
 }
 
 .footMenu ul {
@@ -1479,12 +1476,18 @@ footer > div {
     margin-left: 30px;
 }
 
-footer .leftMenu li {
-    display: inline-block;
-}
-
-footer .rightMenu li {
-    display: inline-block;
+footer .footMenu li + li::before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background-image: url(../img/png/list.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: calc(100% + 30px);
+    top: 50%;
+    margin-top: -7px;
 }
 
 .footContacts {
@@ -1495,15 +1498,11 @@ footer .rightMenu li {
 .footContacts span {
     display: block;
     margin-left: 100px;
-    padding: 30px;
+    padding: 25px;
 }
 
 .footContacts span a {
     display: block;
-}
-
-footer {
-    display: inline-block;
 }
 
 /*страница EDIT*/
