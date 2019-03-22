@@ -555,7 +555,7 @@ header .headMenu a {
 }
 
 .calc .line1 div + div {
-    margin-left: 43px;
+    padding-left: 43px;
 }
 
 .calc .depositAmount span:nth-child(2) {
@@ -568,14 +568,14 @@ header .headMenu a {
 .calc .profit {
     width: 100%;
     float: left;
-    margin: 45px -10px 55px;
+    /*margin: 45px -10px 55px;*/
+    padding: 0px 50px;
 }
 
 .calc .profItem {
     width: 20%;
     float: left;
-    padding: 10px;
-
+    padding: 45px 10px 40px
 }
 
 .profitForm1 {
@@ -769,7 +769,7 @@ header .headMenu a {
 
 .infoLicense {
     width: 260px;
-    height: 400px;
+    height: 345px;
     background-color: rgba(18, 28, 31, 0.77);
     text-align: left;
     padding: 20px;
@@ -792,7 +792,7 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
-    padding: 8px;
+    padding: 3px 50px 5px 0px
 }
 
 .info b {
@@ -825,6 +825,7 @@ header .headMenu a {
 .about1 p {
     font-size: 17px;
     line-height: 30px;
+    padding: 55px 0px 112px;
 }
 
 .checkCompany {
@@ -838,8 +839,8 @@ header .headMenu a {
     letter-spacing: 0.05em;
     width: 260px;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -29px;
+    left: -1px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+0,ff9001+100 */
     background: #ff692a; /* Old browsers */
     background: -moz-linear-gradient(left, #ff692a 0%, #ff9001 100%); /* FF3.6-15 */
@@ -862,7 +863,7 @@ header .headMenu a {
     height: 640px;
     position: relative;
     border: 1px solid #736d59;
-    margin-top: 110px;
+    margin: 110px 0px 130px
 }
 
 .video [class*="icon"] {
@@ -902,11 +903,6 @@ header .headMenu a {
     line-height: 70px;
 }
 
-
-/*.advantages .logoAdv {*/
-/*position: absolute;*/
-/*}*/
-
 .advantages [class*="icon"] {
     font-size: 65px;
 }
@@ -928,14 +924,14 @@ header .headMenu a {
     display: block;
     position: absolute;
     left: 0;
-    top: 0;
+    top: -6px;
 }
 
 .rightItem span[class*="icon"] {
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -6px;
 }
 
 .leftItem ul li div {
@@ -1014,19 +1010,6 @@ header .headMenu a {
     padding-left: 50px;
 }
 
-/*.subWrap span {*/
-/*display: table-cell;*/
-/*text-align: center;*/
-/*vertical-align: middle;*/
-/*}*/
-
-/*.subWrap .btnBorder {*/
-/*display: table-cell;*/
-/*text-align: center;*/
-/*vertical-align: middle;*/
-/*}*/
-
-
 .btnBorder {
     display: block;
     font-size: 24px;
@@ -1049,18 +1032,36 @@ header .headMenu a {
 
 .statAfter {
     float: right;
-    text-align: right;
+    text-align: left;
 }
 
-.tableTitle {
+.tableTitle1 {
     position: relative;
-    padding-left: 105px;
-    margin-top: 120px;
+    padding: 125px 0px 110px;
+
 }
 
-.tableTitle [class*="icon"] {
-    top: 0;
+.tableTitle2 {
+    position: relative;
+    padding: 125px 0px 65px;
+}
+
+.statBefore .tableTitle1 [class*="icon"] {
+    top: 134px;
     left: 0;
+}
+
+.statAfter .tableTitle2 [class*="icon"] {
+    top: 134px;
+    right: 0;
+}
+
+.statAfter .tableTitle2 .titleLight {
+    padding-left: 125px;
+}
+
+.statBefore .tableTitle1 .titleLight {
+    padding-left: 120px;
 }
 
 .statistics .table1 {
@@ -1091,7 +1092,8 @@ header .headMenu a {
 
 .statistics .table1 li .img {
     text-align: right;
-    padding-right: 4px;
+    padding: 4px 4px 0px 0px;
+    border-bottom: 1px solid #4e585d;
 }
 
 .statistics .table1 li img {
@@ -1127,7 +1129,8 @@ header .headMenu a {
 
 .statistics .table2 li .img {
     text-align: right;
-    padding-right: 4px;
+    padding: 4px 4px 0px 0px;
+    border-bottom: 1px solid #4e585d;
 }
 
 .statistics .table2 li img {
@@ -1152,6 +1155,7 @@ header .headMenu a {
     line-height: 40px;
     font-weight: 300;
     color: #ffffff;
+    border-bottom: 1px solid #4e585d;
 }
 
 .statistics .table1 span:nth-child(2) {
@@ -1159,6 +1163,7 @@ header .headMenu a {
     line-height: 40px;
     font-weight: 700;
     color: #ff692a;
+    border-bottom: 1px solid #4e585d;
 }
 
 .statistics .table2 span:first-child {
@@ -1166,6 +1171,7 @@ header .headMenu a {
     line-height: 40px;
     font-weight: 300;
     color: #ffffff;
+    border-bottom: 1px solid #4e585d;
 }
 
 .statistics .table2 span:nth-child(2) {
@@ -1173,6 +1179,7 @@ header .headMenu a {
     line-height: 40px;
     font-weight: 700;
     color: #ffa42f;
+    border-bottom: 1px solid #4e585d;
 }
 
 .diagramm div span {
@@ -1183,7 +1190,7 @@ header .headMenu a {
     width: 470px;
     height: 470px;
     left: 30%;
-    top: 175px;
+    top: 200px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -1266,6 +1273,7 @@ header .headMenu a {
     font-weight: 700;
     color: #05141b;
     text-align: center;
+    padding-top: 75px;
 }
 
 .referal p:nth-child(3) {
@@ -1273,9 +1281,12 @@ header .headMenu a {
     line-height: 30px;
     color: #05141b;
     text-align: center;
+    padding-top: 45px;
 }
 
 .referal .referalTitle {
+    padding: 50px;
+    display: block;
     font-size: 40px;
     line-height: 30px;
     font-weight: 700;
@@ -1289,11 +1300,12 @@ header .headMenu a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 325px;
 }
 
 .btnBorderGrad {
+    height: 60px;
     font-weight: 700;
+    padding: 20px 45px;
     font-size: 24px;
     line-height: 100px;
     text-align: center;
@@ -1318,7 +1330,7 @@ header .headMenu a {
     background-position: center;
     background-repeat: no-repeat;
     left: 30%;
-    top: 0;
+    top: 35px;
     position: relative;
 }
 
@@ -1342,8 +1354,7 @@ header .headMenu a {
 
 .referal .signUp {
     text-align: center;
-    margin-top: 55px;
-    padding-bottom: 135px;
+    padding: 50px 0 130px;
 }
 
 .payments .payList {
