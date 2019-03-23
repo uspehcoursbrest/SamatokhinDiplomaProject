@@ -103,7 +103,7 @@ header .logo {
 }
 
 .logo img {
-    margin-right: 15px;
+    margin: 4px 12px 0px -10px;
 }
 
 .logo span + span {
@@ -221,6 +221,14 @@ header .contacts a:not(.supp) {
     width: 100%;
     float: left;
     padding-top: 75px;
+}
+
+header .menu a:hover {
+    color: #d38327;
+}
+
+.footMenu a:hover {
+    color: #d38327;
 }
 
 .menu .headMenu li {
