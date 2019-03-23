@@ -1,5 +1,21 @@
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+
+a,
+button {
+    -webkit-transition: all .3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.7;
 }
 
 body {
@@ -1036,7 +1052,7 @@ header .headMenu a {
 
 .tableTitle1 {
     position: relative;
-    padding: 125px 0px 110px;
+    padding: 125px 0px 65px;
 
 }
 
@@ -1061,6 +1077,7 @@ header .headMenu a {
 
 .statBefore .tableTitle1 .titleLight {
     padding-left: 120px;
+    display: block;
 }
 
 .statistics .table1 {
@@ -1475,7 +1492,7 @@ header .headMenu a {
     padding: 0px 90px 0px 0px;
 }
 
-.footMenu li + li::before {
+.footMenu li::before {
     content: '';
     display: block;
     width: 14px;
@@ -1577,13 +1594,14 @@ header .headMenu a {
 }
 
 .yourBalance span:nth-child(2) {
+    display: block;
     font-size: 20px;
     line-height: 52px;
     text-transform: uppercase;
     color: #ffffff;
 }
 
-.yourBalance span:last-child {
+.yourBalance > span:last-child {
     font-size: 30px;
     line-height: 40px;
     font-weight: 700;
@@ -1810,7 +1828,7 @@ header .editContacts a:not(.supp) {
 /*}*/
 
 .tablePay li {
-    display: inline-block;
+    display: block;
 }
 
 .editWrap {
@@ -1832,22 +1850,31 @@ header .editContacts a:not(.supp) {
 
 .balance [class*="icon"] {
     font-size: 55px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
 }
 
 .balance .yourBalance {
-    width: 25%;
-    float: left;
+    width: 100%;
+    position: relative;
 }
 
 .balance .tablePay .tablePayList {
-    width: 25%;
+    width: 33.3333333%;
     float: left;
     background-color: rgba(12, 9, 7, 0.55);
 }
 
 .balance .balanceWrap {
-    width: 300px;
+    width: 25%;
     height: 110px;
     background-color: rgba(56, 37, 19, 0.55);
+    float: left;
+}
+
+.balance .tablePay {
+    width: 75%;
+    float: left;
 }
 
