@@ -1541,7 +1541,7 @@ header .headMenu a {
 .user span:nth-child(2) {
     font-size: 15px;
     line-height: 20px;
-    color: #ffffff;
+    color: #ff9001;
 }
 
 .user span:nth-child(3) {
@@ -1607,6 +1607,7 @@ header .headMenu a {
     font-weight: 700;
     text-transform: uppercase;
     color: #ff9001;
+    padding: 0px 0px 0px 90px;
 }
 
 .tablePay span {
@@ -1778,6 +1779,7 @@ header .editContacts a:not(.supp) {
 
 .personalData .user div {
     padding: 0px 0px 14px 2px;
+    color: #ffffff;
 }
 
 .itemData .user {
