@@ -220,7 +220,7 @@ header .contacts a:not(.supp) {
 .menu {
     width: 100%;
     float: left;
-    padding-top: 75px;
+    padding-top: 25px;
 }
 
 header .menu a:hover {
