@@ -1607,6 +1607,8 @@ header .headMenu a {
     line-height: 52px;
     text-transform: uppercase;
     color: #ffffff;
+    padding: 5px 33px 0px 0px;
+    text-align: right;
 }
 
 .yourBalance > span:last-child {
@@ -1615,22 +1617,25 @@ header .headMenu a {
     font-weight: 700;
     text-transform: uppercase;
     color: #ff9001;
-    padding: 0px 0px 0px 90px;
+    padding: 0px 0px 0px 106px;
 }
 
 .tablePay span {
+    display: table-cell;
     font-size: 20px;
     line-height: 53px;
     color: #ff9001;
     font-weight: 700;
+    padding-left: 30px;
+    vertical-align: middle;
 }
 
-.menuEdit .headMenuEdit li {
+.headMenuEdit li {
     display: inline-block;
 }
 
 .headMenuEdit li + li {
-    margin-left: 23px;
+    margin: 13px 12px;
 }
 
 header .headMenuEdit a {
@@ -1643,11 +1648,26 @@ header .headMenuEdit a {
 }
 
 .editAccount h2 {
+    position: relative;
     font-size: 40px;
     line-height: 70px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    margin: 107px 0px 140px;
+}
+
+.editAccount h2::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    background-color: #ff9001;
+    margin-top: -80px;
 }
 
 .editAccount h3 {
@@ -1655,11 +1675,26 @@ header .headMenuEdit a {
     line-height: 70px;
     color: #ffffff;
     text-transform: uppercase;
+    text-align: center;
+    position: relative;
+}
+
+.editAccount h3::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 43px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    background-color: #ff9001;
+    top: -60px;
 }
 
 .editAccount label {
     font-size: 17px;
-    line-height: 100px;
+    line-height: 60px;
     color: #ffffff;
 }
 
@@ -1675,15 +1710,24 @@ header .headMenuEdit a {
     color: #ff6a29;
 }
 
-.editAccount button {
+.editForm button {
     font-size: 17px;
-    line-height: 100px;
-    width: 400px;
-    height: 45px;
-    color: #fc6b28;
+    height: 40px;
+    width: 360px;
+    font-weight: 700;
     text-transform: uppercase;
     border: 3px solid #fc6b28;
     text-align: center;
+    margin: 58px 0px 0px;
+    background-color: transparent;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff692a+1,ff9001+100 */
+    background: #ff692a; /* Old browsers */
+    background: -moz-linear-gradient(left, #ff692a 1%, #ff9001 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ff692a 1%, #ff9001 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ff692a 1%, #ff9001 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .editCopyright span {
@@ -1796,6 +1840,7 @@ header .editContacts a:not(.supp) {
     padding: 20px 0px 17px 105px;
     position: relative;
     border: 1px solid #4d5254;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .personalData .user img {
@@ -1808,6 +1853,7 @@ header .editContacts a:not(.supp) {
     display: block;
     background-color: rgba(35, 28, 25, 0.55);
     border: 1px solid #4d5254;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .itemData .deposit {
@@ -1816,6 +1862,7 @@ header .editContacts a:not(.supp) {
     background-color: #ff692a;
     text-align: center;
     padding: 12px 0px 12px 65px;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .itemData .withdraw {
@@ -1824,21 +1871,22 @@ header .editContacts a:not(.supp) {
     background-color: #ff9001;
     text-align: center;
     padding: 12px 0px 12px 65px;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .menuEditWrap {
-    width: 1167px;
+    width: 100%;
     height: 55px;
     background-color: #05141b;
 }
 
 /*.balance .tablePay {*/
-    /*float: left;*/
-    /*width: 75%;*/
+/*float: left;*/
+/*width: 75%;*/
 /*}*/
 
 .tablePay li {
-    display: block;
+    display: table-row;
 }
 
 .editWrap {
@@ -1854,8 +1902,9 @@ header .editContacts a:not(.supp) {
 .editWrap .editForm form {
     width: 360px;
     height: 400px;
-    border: 1px solid #ffffff;
-    padding: 30px 25px 90px;
+    border: 1px solid #4e585d;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .balance [class*="icon"] {
@@ -1866,7 +1915,8 @@ header .editContacts a:not(.supp) {
 }
 
 .balance .yourBalance {
-    width: 100%;
+
+    width: 300px;
     position: relative;
 }
 
@@ -1874,6 +1924,8 @@ header .editContacts a:not(.supp) {
     width: 33.3333333%;
     float: left;
     background-color: rgba(12, 9, 7, 0.55);
+    display: table;
+    border-right: 1px solid #4d5254;
 }
 
 .balance .balanceWrap {
@@ -1881,10 +1933,57 @@ header .editContacts a:not(.supp) {
     height: 110px;
     background-color: rgba(56, 37, 19, 0.55);
     float: left;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
 .balance .tablePay {
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
     width: 75%;
     float: left;
 }
 
+.tablePayList img {
+    padding: 7px 0px 12px 7px;
+    display: table-cell;
+}
+
+.balance {
+    border: 1px solid #4d5254;
+    margin: 30px 0 25px;
+}
+
+.tablePay .tablePayList:last-child {
+    border-right: none;
+}
+
+.headMenuEdit {
+    border: 1px solid #4d5254;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
+}
+
+.headMenuEdit a:hover {
+    color: #05141b;
+    background-color: #ff692a;
+}
+
+.editForm input {
+    background-color: #06141b;
+    border: 1px solid #4f595e;
+    box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
+}
+
+.editCopyright {
+    text-align: center;
+}
+
+.itemPay div {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+    position: relative;
+}
+
+.itemPay div img {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
