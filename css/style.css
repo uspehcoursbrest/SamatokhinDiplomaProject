@@ -1889,10 +1889,10 @@ header .editContacts a:not(.supp) {
     display: table-row;
 }
 
-.editWrap {
-    float: left;
-    width: 100%;
-}
+/*.editWrap {*/
+    /*float: left;*/
+    /*width: 100%;*/
+/*}*/
 
 .editForm {
     float: left;
@@ -1974,6 +1974,7 @@ header .editContacts a:not(.supp) {
 
 .editCopyright {
     text-align: center;
+    margin: 50px ;
 }
 
 .itemPay div {
