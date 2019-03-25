@@ -506,9 +506,9 @@ header .headMenu a {
 }
 
 .advantages {
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
+    background-color: #f7e2c9;
 }
 
 .subscribe {
@@ -524,9 +524,20 @@ header .headMenu a {
 }
 
 .statistics {
-    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.statistics .backImg {
+    position: absolute;
+    width: 1920px;
+    height: 1291px;
+    top: -13px;
+    left: 50%;
+    margin-left: -960px;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -1;
 }
 
 .referal {
@@ -1601,7 +1612,7 @@ header .headMenu a {
     text-transform: uppercase;
 }
 
-.yourBalance span:nth-child(2) {
+.yourBalance > span:nth-child(2) {
     display: block;
     font-size: 20px;
     line-height: 52px;
@@ -1626,25 +1637,30 @@ header .headMenu a {
     line-height: 53px;
     color: #ff9001;
     font-weight: 700;
-    padding-left: 30px;
     vertical-align: middle;
+}
+
+.tablePay li + li span {
+    border-top: 1px solid #494a46;
+}
+
+.tablePay li span:first-child {
+    width: 60px;
 }
 
 .headMenuEdit li {
     display: inline-block;
 }
 
-.headMenuEdit li + li {
-    margin: 13px 12px;
-}
-
 header .headMenuEdit a {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 49px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 700;
+    padding: 0px 11px;
+    display: block;
 }
 
 .editAccount h2 {
@@ -1703,7 +1719,7 @@ header .headMenuEdit a {
     line-height: 100px;
     color: #989898;
     width: 310px;
-    height: 45px;
+    height: 47px;
 }
 
 .editAccount label span {
@@ -1728,6 +1744,8 @@ header .headMenuEdit a {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff692a', endColorstr='#ff9001', GradientType=1); /* IE6-9 */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    border-image: linear-gradient(to right, #ff692a 1%, #ff9001 100%);
+    border-image-slice: 1;
 }
 
 .editCopyright span {
@@ -1770,6 +1788,11 @@ header .editContacts a:not(.supp) {
     font-size: 18px;
     line-height: 15px;
     vertical-align: top;
+}
+
+
+.editAccount {
+    padding-bottom: 30px;
 }
 
 .editContact .supp {
@@ -1885,6 +1908,15 @@ header .editContacts a:not(.supp) {
 /*width: 75%;*/
 /*}*/
 
+.tablePay ul {
+    display: table;
+    width: 100%;
+}
+
+.tablePay li span {
+    width: 220px;
+}
+
 .tablePay li {
     display: table-row;
 }
@@ -1961,7 +1993,7 @@ header .editContacts a:not(.supp) {
     box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
 }
 
-.headMenuEdit a:hover {
+.headMenuEdit a:hover,.headMenuEdit a.active {
     color: #05141b;
     background-color: #ff692a;
 }
@@ -1970,17 +2002,22 @@ header .editContacts a:not(.supp) {
     background-color: #06141b;
     border: 1px solid #4f595e;
     box-shadow: 11px 11px 21px 0px rgba(0, 0, 0, 0.53);
+    padding-left: 10px;
 }
 
 .editCopyright {
     text-align: center;
-    margin: 50px ;
+    margin-top: 30px;
 }
 
 .itemPay div {
     display: inline-block;
-    margin: 10px 0px 10px 0px;
+    margin: 6px 0px 7px 0px;
     position: relative;
+}
+
+.itemPay {
+    padding-top: 20px;
 }
 
 .itemPay div img {
