@@ -103,11 +103,11 @@ header .logo {
 }
 
 .logo img {
-    margin: 4px 12px 0px -10px;
+    margin: -3px 15px 0px 4px;
 }
 
 .logo span + span {
-    padding-bottom: 10px;
+   padding: 2px 0px 0px 0px;
 }
 
 .logoSpan1 {
@@ -150,7 +150,7 @@ header .logo {
 .contacts a {
     display: block;
     text-align: center;
-    margin: 25px;
+    padding: 19px 0px 0px 5px;
 }
 
 .contact {
@@ -161,13 +161,13 @@ header .logo {
 .contacts span[class="icon-soc1"] {
     display: block;
     position: absolute;
-    left: 200px;
-    top: 60px;
+    left: 210px;
+    top: 70px;
 }
 
 .contact span {
-    font-size: 18px;
-    line-height: 15px;
+    font-size: 19px;
+    line-height: 19px;
     vertical-align: top;
 }
 
@@ -181,8 +181,8 @@ header .logo {
 .contacts span[class="icon-support"] {
     display: block;
     position: absolute;
-    right: 0;
-    top: 60px;
+    right: -4px;
+    top: 69px;
 }
 
 span[class*="icon"] .path2,
@@ -210,7 +210,7 @@ header .supp {
 }
 
 header .contacts [class*="icon"] {
-    font-size: 55px;
+    font-size: 59px;
 }
 
 header .contacts a:not(.supp) {
@@ -220,7 +220,7 @@ header .contacts a:not(.supp) {
 .menu {
     width: 100%;
     float: left;
-    padding-top: 25px;
+    padding: 41px 0px 0px 17px;
 }
 
 header .menu a:hover {
@@ -237,7 +237,7 @@ header .menu a:hover {
 }
 
 .menu .headMenu li + li {
-    margin-left: 75px;
+    margin-left: 73px;
 }
 
 .headMenu li + li::before {
@@ -265,11 +265,11 @@ header .headMenu a {
 
 .tagline {
     text-align: left;
-    margin-top: 150px;
+    margin-top: 79px;
 }
 
 .tagline1 {
-    font-size: 50px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 80px;
     color: #ffffff;
@@ -279,7 +279,7 @@ header .headMenu a {
 
 .tagline2 {
     font-family: Podkova;
-    font-size: 133px;
+    font-size: 139px;
     line-height: 133px;
     font-weight: 700;
     color: #ffffff;
@@ -293,13 +293,17 @@ header .headMenu a {
     color: #ffffff;
     text-transform: uppercase;
     text-align: left;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.36em;
 }
 
 .logSub a {
     display: inline-block;
-    margin-right: 30px;
-    margin-top: 125px;
+    margin-right: 29px;
+    margin-top: 101px;
+    animation-name: buttonAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 .btnColor2 {
@@ -331,7 +335,7 @@ header .headMenu a {
 }
 
 .loginOffers .captionLight {
-    margin-top: 245px;
+    margin-top: 219px;
 }
 
 .captionLight {
@@ -358,7 +362,7 @@ header .headMenu a {
 }
 
 .calculator .captionDark {
-    padding: 185px 0px 110px;
+    padding: 203px 0px 83px;
 }
 
 .calculator .captionDark::before {
@@ -405,7 +409,7 @@ header .headMenu a {
 }
 
 .advantages .captionDark {
-    padding: 185px 0px 160px;
+    padding: 160px 0px 45px;
 }
 
 .referal .captionDark {
@@ -435,8 +439,8 @@ header .headMenu a {
 }
 
 .captionLight h2 {
-    font-size: 50px;
-    line-height: 70px;
+    font-size: 53px;
+    line-height: 43px;
     font-weight: 700;
     color: #ffffff;
 }
@@ -738,8 +742,8 @@ header .headMenu a {
 }
 
 .calc .getMoney {
-    font-size: 17px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 40px;
     color: #05141b;
     text-align: center;
     padding-top: 55px;
@@ -758,14 +762,14 @@ header .headMenu a {
     letter-spacing: 0.05em;
     position: absolute;
     left: 41%;
-    bottom: -25px;
+    bottom: -31px;
     box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.21);
 }
 
 .infoWrap {
     float: left;
     width: 100%;
-    margin-top: 110px;
+    margin-top: 11px;
 }
 
 .about {
@@ -779,7 +783,7 @@ header .headMenu a {
 .info {
     width: 50%;
     float: left;
-    margin-top: -16px;
+    margin: -35px 0px -18px 0px;
 }
 
 .license {
@@ -803,7 +807,7 @@ header .headMenu a {
 
 .infoLicense {
     width: 260px;
-    height: 345px;
+    height: 375px;
     background-color: rgba(18, 28, 31, 0.77);
     text-align: left;
     padding: 20px;
@@ -812,7 +816,7 @@ header .headMenu a {
 }
 
 .infoLicense > div {
-    padding: 8px;
+     padding:  3px 0px 21px 32px;
 }
 
 .video {
@@ -826,7 +830,7 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     color: #ffffff;
-    padding: 3px 50px 5px 0px
+    padding: 22px 50px 5px 0px;
 }
 
 .info b {
@@ -859,7 +863,7 @@ header .headMenu a {
 .about1 p {
     font-size: 17px;
     line-height: 30px;
-    padding: 55px 0px 112px;
+    padding: 55px 0px 0px;
 }
 
 .checkCompany {
@@ -919,7 +923,7 @@ header .headMenu a {
 
 .video .captionVideo {
     display: block;
-    padding: 365px;
+    padding: 332px;
     text-align: center;
     color: #ffffff;
 }
@@ -938,11 +942,11 @@ header .headMenu a {
 }
 
 .advantages [class*="icon"] {
-    font-size: 65px;
+    font-size: 90px;
 }
 
 .advantages ul li {
-    padding-bottom: 75px;
+    padding-bottom: 67px;
     position: relative;
 }
 
@@ -951,21 +955,21 @@ header .headMenu a {
     float: left;
     text-align: left;
     position: relative;
-    padding: 70px;
+    padding: 70px 0px 0px 25px
 }
 
 .leftItem span[class*="icon"] {
     display: block;
     position: absolute;
-    left: 0;
-    top: -6px;
+    left: -40px;
+    top: -10px;
 }
 
 .rightItem span[class*="icon"] {
     display: block;
     position: absolute;
-    right: 0;
-    top: -6px;
+    right: -74px;
+    top: -5px;
 }
 
 .leftItem ul li div {
@@ -973,7 +977,7 @@ header .headMenu a {
 }
 
 .rightItem ul li div {
-    padding-right: 75px;
+    padding-right: 37px;
 }
 
 .advantages .rightItem {
@@ -1118,7 +1122,7 @@ header .headMenu a {
 
 .statistics .table1 li .name {
     width: 145px;
-    padding-left: 20px;
+    padding-left: 12px;
 }
 
 .statistics .table1 li .sum {
@@ -1155,7 +1159,7 @@ header .headMenu a {
 
 .statistics .table2 li .name {
     width: 145px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .statistics .table2 li .sum {
@@ -1225,7 +1229,7 @@ header .headMenu a {
     width: 470px;
     height: 470px;
     left: 30%;
-    top: 200px;
+    top: 228px;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -1270,13 +1274,13 @@ header .headMenu a {
     line-height: 24px;
     color: #ffffff;
     text-align: left;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .statTextWrap {
     float: left;
     width: 100%;
-    margin: 200px 0px 110px 0px
+    margin: 130px 0px 110px -5px
 }
 
 .statisticsText {
@@ -1308,7 +1312,7 @@ header .headMenu a {
     font-weight: 700;
     color: #05141b;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 10px;
 }
 
 .referal p:nth-child(3) {
@@ -1320,10 +1324,10 @@ header .headMenu a {
 }
 
 .referal .referalTitle {
-    padding: 50px;
+    padding: 43px;
     display: block;
     font-size: 40px;
-    line-height: 30px;
+    line-height: 16px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -1425,10 +1429,10 @@ header .headMenu a {
 }
 
 .logoSpan3 {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 700;
-    letter-spacing: 0.6em;
+    letter-spacing: 0.65em;
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -2024,4 +2028,33 @@ header .editContacts a:not(.supp) {
     position: absolute;
     top: 4px;
     right: 4px;
+}
+
+/*АНИМАЦИЯ !!!*/
+
+@keyframes buttonAnimation {
+    0% {
+        -webkit-transform: scale(0,3);
+        -moz-transform: scale(0,3);
+        -ms-transform: scale(0,3);
+        -o-transform: scale(0,3);
+        transform: scale(0,3);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+        -o-transform: scale(0.6);
+        transform: scale(0.6);
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 }
