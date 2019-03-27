@@ -468,6 +468,12 @@ header .headMenu a {
     color: #333333;
 }
 
+.sliderOffers .card{
+    float: left;
+    width: 25%;
+    padding: 185px 0px 240px;
+}
+
 .sliderOffers [class*="icon"] {
     font-size: 92px;
     display: block;
@@ -500,7 +506,8 @@ header .headMenu a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 370px;
+    padding-bottom: 270px;
+
 }
 
 .about {
@@ -810,7 +817,7 @@ header .headMenu a {
     height: 375px;
     background-color: rgba(18, 28, 31, 0.77);
     text-align: left;
-    padding: 20px;
+    padding: 20px 20px 5px 10px;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.29);
 }
