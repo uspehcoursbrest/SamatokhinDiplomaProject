@@ -240,7 +240,9 @@
     .video .captionVideo {
         padding: 210px;
     }
-
+.advantages {
+    background-image: none;
+}
     .advantages [class*="icon"] {
         font-size: 60px;
     }
@@ -339,17 +341,20 @@
         display: block;
     }
 
-    .menuSelect select {
+    header .menuSelect select {
         background-color: transparent;
+        display: none;
     }
 
     .footContacts span {
         padding: 18px 0px 33px 23px;
     }
-
+    .footMenu {
+        padding: 100px 0px;
+    }
     .footContacts {
         float: left;
-        padding: 75px 27px;
+        padding: 77px 20px;
     }
 }
 
@@ -483,21 +488,26 @@
         left: 35%;
         top: 15px;
     }
+
     .video .captionVideo {
         padding: 140px;
     }
+
     .video .captionVideo span:first-child {
         font-size: 14px;
         line-height: 25px;
     }
+
     .video .captionVideo span:last-child {
         font-size: 30px;
         line-height: 37px;
     }
+
     .advantages .leftItem p {
         font-size: 14px;
         line-height: 20px;
     }
+
     .advantages .rightItem p {
         font-size: 14px;
         line-height: 20px;

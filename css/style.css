@@ -2065,3 +2065,7 @@ header .editContacts a:not(.supp) {
         opacity: 1;
     }
 }
+
+.menuSelect {
+    display: none;
+}
