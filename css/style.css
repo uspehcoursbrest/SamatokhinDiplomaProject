@@ -2069,3 +2069,24 @@ header .editContacts a:not(.supp) {
 .menuSelect {
     display: none;
 }
+
+/*ЧАСЫ ДЛЯ ПРОЕКТА!!!*/
+
+.clock {
+    float: left;
+    margin: 10px 0px 0px 60px;
+}
+
+.clock .date {
+    font-size: 18px;
+    line-height: 20px;
+    color: #ff9001;
+}
+
+.clock .time {
+    display: block;
+    font-size: 45px;
+    line-height: 40px;
+    color: #ff9001;
+    font-weight: 400;
+}
