@@ -13,11 +13,15 @@ $(document).ready(function () {
             if (min < 10) min = "0" + min;
             document.getElementById("date").innerHTML = day + " " + monthArr[month] + " " + year;
             document.getElementById("time").innerHTML = hour + ":" + min;
-        }var timer;
-        function  clockStart() {
+        }
+
+        var timer;
+
+        function clockStart() {
             timer = setInterval(clock, 1000);
             clock();
         }
+
         clockStart();
     }
 })
