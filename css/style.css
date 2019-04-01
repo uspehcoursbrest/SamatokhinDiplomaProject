@@ -1287,7 +1287,7 @@ header .headMenu a {
 .statTextWrap {
     float: left;
     width: 100%;
-    margin: 130px 0px 110px -5px
+    margin: 100px 0px 110px -5px;
 }
 
 .statisticsText {

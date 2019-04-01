@@ -14,6 +14,10 @@
         width: 950px;
     }
 
+    .headWrap .backImg {
+        height: 1545px;
+    }
+
     header .headMenu a {
         font-size: 15px;
     }
@@ -201,6 +205,25 @@
         height: 680px;
     }
 
+    .calculator .captionDark::before {
+        top: 630px;
+    }
+
+    .calc .runner {
+        padding: 15px 15px;
+        margin: 0;
+    }
+
+    .calc .line1 div + div {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .calculator .calc .line1 {
+        padding: 15px 15px;
+        margin: 0;
+    }
+
     .enterAmount input {
         width: 258px;
     }
@@ -209,9 +232,19 @@
         width: 91%;
     }
 
+
+    .calc .profit {
+        padding: 0px 8px;
+    }
+
     .calc .profit div {
         width: 99px;
-        margin: 5px 24px 0px 1px;
+        margin: -15px 30px -2px 2px;
+    }
+
+
+    .headWrap .backImg {
+        height: 1475px;
     }
 
     .profit span:first-child {
@@ -240,9 +273,11 @@
     .video .captionVideo {
         padding: 210px;
     }
-.advantages {
-    background-image: none;
-}
+
+    .advantages {
+        background-image: none !important;
+    }
+
     .advantages [class*="icon"] {
         font-size: 60px;
     }
@@ -349,9 +384,11 @@
     .footContacts span {
         padding: 18px 0px 33px 23px;
     }
+
     .footMenu {
         padding: 100px 0px;
     }
+
     .footContacts {
         float: left;
         padding: 77px 20px;
@@ -361,6 +398,10 @@
 @media (max-width: 767px) {
     .container {
         width: 100%;
+    }
+
+    .logo img {
+        margin: -10px 10px 0px 20px;
     }
 
     .contacts span[class="icon-soc1"] {
@@ -383,9 +424,44 @@
         background-color: transparent;
     }
 
+    .btnColor2 {
+        font-size: 14px;
+        line-height: 35px;
+        width: 160px;
+    }
+
+    .btnColor3 {
+        font-size: 14px;
+        line-height: 35px;
+        width: 160px;
+    }
+
     .logSub a {
         margin-right: 15px;
-        margin-top: 110px;
+        margin-top: 40px;
+    }
+
+    .sliderOffers [class*="card"] > span:nth-child(4) {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .sliderOffers [class*="card"] > span:nth-child(3) {
+        font-size: 24px;
+        line-height: 20px;
+    }
+
+    .sliderOffers [class*="icon"] {
+        font-size: 40px;
+    }
+
+    .sliderOffers [class*="card"] > span:first-child {
+        font-size: 30px;
+        line-height: 33px;
+    }
+
+    .sliderOffers .card {
+        padding: 10px 15px 0px;
     }
 
     .tagline1 {
@@ -409,7 +485,11 @@
     }
 
     .headWrap .backImg {
-        height: 1475px;
+        height: 835px;
+    }
+
+    .tagline {
+        margin-top: 20px;
     }
 
     .captionLight span {
@@ -432,8 +512,13 @@
         line-height: 32px;
     }
 
-    .calc .line1 div + div {
+    .calc .getMoney {
         display: none;
+    }
+
+    .calc .line1 div + div {
+        padding: 5px 0px;
+        font-size: 14px;
     }
 
     .selectPlan label {
@@ -443,7 +528,18 @@
 
     .selectPlan select {
         width: 300px;
-        font-size: 15px;
+        font-size: 14px;
+        height: 40px;
+    }
+
+
+    .enterAmount label {
+        font-size: 14px;
+    }
+
+    .calc .depositAmount span:nth-child(2) {
+        font-size: 20px;
+        line-height: 25px;
     }
 
     .runner label {
@@ -452,11 +548,16 @@
 
     .runner input {
         width: 75%;
+        height: 55px;
+    }
+
+    .enterAmount input {
+        height: 40px;
     }
 
     .calc {
         width: 100%;
-        height: 535px;
+        height: 385px;
     }
 
     .profit {
@@ -464,54 +565,110 @@
     }
 
     .btnColor1 {
-        left: 27%;
+        font-size: 14px;
+        line-height: 40px;
+        width: 150px;
+        bottom: -22px;
+        left: 173px;
     }
 
-    .calc .getMoney {
-        font-size: 16px;
-    }
-
-    .infoLicense {
+    .about {
         display: none;
     }
 
-    .info {
-        width: 100%;
-    }
-
-    .video {
-        width: 100%;
-        height: 400px;
-    }
-
-    .video a span[class="icon-video"] {
-        left: 35%;
-        top: 15px;
-    }
-
-    .video .captionVideo {
-        padding: 140px;
-    }
-
-    .video .captionVideo span:first-child {
-        font-size: 14px;
-        line-height: 25px;
-    }
-
-    .video .captionVideo span:last-child {
-        font-size: 30px;
-        line-height: 37px;
+    .advantages .captionDark {
+        padding: 75px 0px 30px;
     }
 
     .advantages .leftItem p {
         font-size: 14px;
         line-height: 20px;
+        margin-top: 5px;
     }
 
     .advantages .rightItem p {
         font-size: 14px;
         line-height: 20px;
+        margin-top: 5px;
     }
+
+    .advantages ul li {
+        padding-bottom: 30px;
+    }
+
+    .advantages .rightItem {
+        padding: 55px 17px 0px 15px;
+    }
+
+    .advantages .leftItem ul li {
+        padding-bottom: 30px;
+    }
+
+    .advantages .rightItem ul li {
+        padding-bottom: 40px;
+    }
+
+    .subWrap img {
+        display: none;
+    }
+
+    .subscribe .tCell span:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .subscribe .tCell span:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .btnBorder {
+        font-size: 15px;
+        width: 135px;
+    }
+    .statistics {
+        display: none;
+    }
+
+    .referal .procent {
+        background-image: none!important;
+    }
+
+    .referal .captionDark {
+        padding: 60px 0px 30px;
+    }
+
+    .referal .captionDark h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .referal p:nth-child(2) {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .referal p:nth-child(3) {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .procent {
+        display: none;
+    }
+
+    .referal .referalTitle {
+        font-size: 21px;
+    }
+
+    .btnBorderGrad {
+        font-size: 14px;
+        padding: 14px 37px;
+    }
+
+    .referal .signUp {
+        padding: 0px 0 55px;
+    }
+
+
 }
 
 @media (max-width: 479px) {
