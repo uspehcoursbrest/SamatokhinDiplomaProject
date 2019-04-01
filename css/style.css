@@ -300,10 +300,7 @@ header .headMenu a {
     display: inline-block;
     margin-right: 29px;
     margin-top: 101px;
-    animation-name: buttonAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation: buttonAnimation 4s infinite ease-in-out;
 }
 
 .btnColor2 {
@@ -2041,19 +2038,19 @@ header .editContacts a:not(.supp) {
 
 @keyframes buttonAnimation {
     0% {
-        -webkit-transform: scale(0,3);
-        -moz-transform: scale(0,3);
-        -ms-transform: scale(0,3);
-        -o-transform: scale(0,3);
-        transform: scale(0,3);
-        opacity: 0;
-    }
-    50% {
         -webkit-transform: scale(0.6);
         -moz-transform: scale(0.6);
         -ms-transform: scale(0.6);
         -o-transform: scale(0.6);
         transform: scale(0.6);
+        opacity: 0.2;
+    }
+    50% {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
         opacity: 0.6;
     }
     100% {
