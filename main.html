@@ -6,9 +6,11 @@
     <title>Главная</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
@@ -26,12 +28,12 @@
                 </div>
                 <div class="contacts">
                     <!--<div class="clock">-->
-                        <!--<span class="date" id="date">-->
-                            <!--30 Mar 2019-->
-                        <!--</span>-->
-                        <!--<span class="time" id="time">-->
-                            <!--17:25:30-->
-                        <!--</span>-->
+                    <!--<span class="date" id="date">-->
+                    <!--30 Mar 2019-->
+                    <!--</span>-->
+                    <!--<span class="time" id="time">-->
+                    <!--17:25:30-->
+                    <!--</span>-->
                     <!--</div>-->
                     <a href="#"><span class="icon-soc1">
                 <span class="path1"></span>
@@ -92,44 +94,82 @@
                         <span>atlantic oil limited</span>
                         <h2>Investment offers</h2>
                     </div>
-                    <div class="sliderOffers">
-                        <div class="card">
-                            <span>01</span>
-                            <span class="icon-offer1">
-                        <span class="path1"></span>
-                        <span class="path2"></span>
-                        <span class="path3"></span>
-                        <span class="path4"></span>
-                    </span>
-                            <span>140%</span>
-                            <span>After 1 Day</span>
-                        </div>
-                        <div class="card">
-                            <span>02</span>
-                            <span class="icon-offer2">
-                        <span class="path1"></span>
-                        <span class="path2"></span>
-                    </span>
-                            <span>300%</span>
-                            <span>After 5 Days</span>
-                        </div>
-                        <div class="card">
-                            <span>03</span>
-                            <span class="icon-offer3">
-                        <span class="path1"></span>
-                        <span class="path2"></span>
-                    </span>
-                            <span>600%</span>
-                            <span>After 10 Days</span>
-                        </div>
-                        <div class="card">
-                            <span>04</span>
-                            <span class="icon-offer4">
-                        <span class="path1"></span>
-                        <span class="path2"></span>
-                    </span>
-                            <span>1200%</span>
-                            <span>After 20 Days</span>
+                    <div class="slider">
+                        <div class="slides owl-carousel owl-theme">
+                            <div class="item">
+                                <span>01</span>
+                                <span class="icon-offer1">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                    <span class="path3"></span>
+                                    <span class="path4"></span>
+                                </span>
+                                <span>140%</span>
+                                <span>After 1 Day</span>
+                            </div>
+                            <div class="item">
+                                <span>02</span>
+                                <span class="icon-offer2">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>300%</span>
+                                <span>After 5 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>03</span>
+                                <span class="icon-offer3">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>600%</span>
+                                <span>After 10 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>04</span>
+                                <span class="icon-offer4">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>1200%</span>
+                                <span>After 20 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>05</span>
+                                <span class="icon-offer5">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>3000%</span>
+                                <span>After 40 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>06</span>
+                                <span class="icon-offer6">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>VIP 1000%</span>
+                                <span>After 5 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>07</span>
+                                <span class="icon-offer7">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>VIP 1500%</span>
+                                <span>After 8 Days</span>
+                            </div>
+                            <div class="item">
+                                <span>08</span>
+                                <span class="icon-offer8">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                </span>
+                                <span>VIP 3000%</span>
+                                <span>After 25 Days</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,25 +187,29 @@
                             <div class="entForm">
                                 <label for="Plans">select plan:</label>
                                 <select name="Plans" id="Plans">
-                                    <option value="Plan 4 $ 2501 - $ 5000 180% After 5 Days">Plan 1 $ 2501-$ 5000 180%
-                                        After
-                                        5
-                                        days
+                                    <option value="Plan 1 $ 10 - $ 500,00 120% After 1 Day">Plan 1 $ 10 - $ 500,00 120%
+                                        After 1 Day
                                     </option>
-                                    <option value="Plan 3 $ 2501 - $ 5000 180% After 5 Days">Plan 2 $ 2501-$ 5000 180%
-                                        After
-                                        5
-                                        days
+                                    <option value="Plan 2 $ 2501 - $ 1000 130% After 5 Days">Plan 2 $ 2501 - $ 1000 130%
+                                        After 3 Days
                                     </option>
-                                    <option value="Plan 2 $ 2501 - $ 5000 180% After 5 Days">Plan 3 $ 2501-$ 5000 180%
-                                        After
-                                        5
-                                        days
+                                    <option value="Plan 3 $ 1001 - $ 2500 150% After 10 Days">Plan 3 $ 1001 - $ 2500
+                                        150% After 5 Days
                                     </option>
-                                    <option value="Plan 1 $ 2501 - $ 5000 180% After 5 Days">Plan 4 $ 2501-$ 5000 180%
-                                        After
-                                        5
-                                        days
+                                    <option value="Plan 4 $ 2501 - $ 5000 180% After 20 Days">Plan 4 $ 2501 - $ 5000
+                                        180% After 7 Days
+                                    </option>
+                                    <option value="Plan 5 $ 5001 - $ 10000 230% After 40 Days">Plan 5 $ 5001 - $ 10000
+                                        230% After 10 Days
+                                    </option>
+                                    <option value="Plan 6 $ 10001 - $ 25000 260% After 5 Days">Plan 6 $ 10001 - $ 25000
+                                        260% After 5 Days
+                                    </option>
+                                    <option value="Plan 7 $ 25001 - $ 100000 180% After 8 Days">Plan 7 $ 25001 - $
+                                        100000 180% After 8 Days
+                                    </option>
+                                    <option value="Plan 8 $ 100001 - $ 500000 180% After 25 Days">Plan 8 $ 100001 - $
+                                        500000 180% After 25 Days
                                     </option>
                                 </select>
                             </div>

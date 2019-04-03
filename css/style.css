@@ -373,7 +373,7 @@ header .headMenu a {
     background-color: #ff9001;
     position: absolute;
     left: 50%;
-    margin-top: 400px;
+    margin-top: -45px;
 }
 
 .about .captionLight::before {
@@ -466,34 +466,75 @@ header .headMenu a {
     color: #333333;
 }
 
-.sliderOffers .card{
-    float: left;
-    width: 25%;
-    padding: 185px 0px 240px;
-}
-
-.sliderOffers [class*="icon"] {
-    font-size: 92px;
+.slider .slides.owl-carousel {
     display: block;
 }
 
-.sliderOffers [class*="card"] > span:first-child {
+.slider {
+    padding: 80px 0px 60px 0px;
+}
+
+.slider .item {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 335px;
+    border: 1px solid #ffffff;
+}
+
+.slider .owl-nav > button[class*="owl"] {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 58px;
+    top: 50%;
+    color: #ff9001;
+    margin-top: -30px;
+    outline: none;
+}
+
+.slider .owl-nav button.owl-prev {
+    left: -50px;
+}
+
+.slider .owl-nav button.owl-next {
+    right: -50px;
+}
+
+.slider [class*="icon"] {
+    font-size: 92px;
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    display: block;
+}
+
+.slider [class*="item"] > span:first-child {
+    position: absolute;
+    top: 3px;
+    right: 0;
     font-size: 70px;
     line-height: 40px;
     font-weight: 700;
     color: #333333;
 }
 
-.sliderOffers [class*="card"] > span:nth-child(3) {
+.slider [class*="item"] > span:nth-child(3) {
     font-size: 45px;
+    text-align: center;
     line-height: 40px;
     font-weight: 700;
     color: #ff9001;
     display: block;
+    padding-top: 200px;
 }
 
-.sliderOffers [class*="card"] > span:nth-child(4) {
+.slider [class*="item"] > span:nth-child(4) {
     font-size: 18px;
+    text-align: center;
     line-height: 30px;
     color: #ff692a;
     font-weight: 300;
