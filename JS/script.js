@@ -24,13 +24,23 @@ $(document).ready(function () {
     // clockStart();
     var slider = $('.slides');
     slider.owlCarousel({
-        items:4,
+        items: 4,
         margin: 20,
         dots: false,
         nav: true,
-        navText: ["<",">"],
+        navText: ["<", ">"],
         loop: true,
         autoplay: false
     });
     $('select').selectric();
+    $('rangeSum').ionRangeSlider({
+        grid: true,
+        min: 50,
+        max: 70000,
+        from: 500,
+        step: 100,
+        grid_num: 16,
+        grid_margin: false,
+        postfix: "$",
+    });
 })
