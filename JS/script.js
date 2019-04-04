@@ -32,4 +32,5 @@ $(document).ready(function () {
         loop: true,
         autoplay: false
     });
+    $('select').selectric();
 })

@@ -466,10 +466,6 @@ header .headMenu a {
     color: #333333;
 }
 
-.slider .slides.owl-carousel {
-    display: block;
-}
-
 .slider {
     padding: 80px 0px 60px 0px;
 }
@@ -481,7 +477,7 @@ header .headMenu a {
     background-repeat: no-repeat;
     width: 260px;
     height: 335px;
-    border: 1px solid #ffffff;
+    border: 1px solid #5d6464;
 }
 
 .slider .owl-nav > button[class*="owl"] {
@@ -508,7 +504,7 @@ header .headMenu a {
     font-size: 92px;
     position: absolute;
     top: 65px;
-    left: 90px;
+    left: 85px;
     display: block;
 }
 
@@ -695,6 +691,59 @@ header .headMenu a {
     font-weight: 700;
     color: #05141b;
     text-transform: uppercase;
+    display: block;
+    padding: 0px 0px 6px 0px;
+}
+
+.selectBl {
+    width: 500px;
+}
+
+.selectBl .selectric {
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+}
+
+.selectBl .selectric .label {
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+    padding: 10px 100px 0px 0px;
+    margin: 0 38px 0 -25px;
+}
+
+.selectBl .selectric .button {
+    position: absolute;
+    right: 23px;
+    top: 54%;
+    width: 0px;
+    height: 0px;
+    margin-top: -2px;
+    background-color: transparent;
+}
+
+
+.selectric .button:after {
+    border: 8px solid transparent;
+    border-top-color: #333333;
+}
+
+.selectBl .selectric-items {
+    border: 1px solid #d6d6d6;
+}
+
+.selectBl .selectric-items li {
+    padding: 0;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+    background-color: #fff;
+}
+
+.selectBl .selectric-items li:hover {
+    background-color: rgba(0,0,0,0.1);
 }
 
 .selectPlan select {
