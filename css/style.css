@@ -627,8 +627,9 @@ header .headMenu a {
 }
 
 .calculator .calc .line1 {
-    margin: 0 0 0 60px;
-    padding-top: 80px;
+    /*margin: 0 0 0 60px;*/
+    padding: 80px 0px 0px 60px;
+    display: inline-block;
 }
 
 .calc .line1 div {
@@ -637,7 +638,11 @@ header .headMenu a {
 
 
 .calc .line1 div {
-    margin: 0px 25px 0px 0px;
+    margin: -7px 17px -22px 0px;
+}
+
+.calc .line1 .depositAmount {
+    padding: 0px 0px 0px 53px;
 }
 
 .calc .line1 .enterAmount {
