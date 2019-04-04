@@ -33,14 +33,34 @@ $(document).ready(function () {
         autoplay: false
     });
     $('select').selectric();
-    $('rangeSum').ionRangeSlider({
+    $('#rangeSum').ionRangeSlider({
         grid: true,
-        min: 50,
+        min: 20,
         max: 70000,
-        from: 500,
+        from: 20000,
         step: 100,
-        grid_num: 16,
+        grid_num: 250,
         grid_margin: false,
         postfix: "$",
+        onStart: function (data) {
+            $('#sumInv').val(data.from);
+        },
+        onChange: function (data) {
+            $('#sumInv').val(data.from);
+        }
+    });
+    var sumRange = $('#rangeSum').data('ionRangeSlider'),
+        min = 50,
+        max = 50000;
+    $('#sumInv').on('change keyup', function () {
+        var val = $(this).prop('value');
+        if (val < min) {
+            val = min;
+        } else if (val > max) {
+            val = max;
+        }
+        sumRange.update({
+            from: val
+        });
     });
 })

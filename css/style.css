@@ -360,7 +360,7 @@ header .headMenu a {
 }
 
 .calculator .captionDark {
-    padding: 203px 0px 83px;
+    padding: 195px 0px 50px;
 }
 
 .calculator .captionDark::before {
@@ -635,8 +635,13 @@ header .headMenu a {
     display: inline-block;
 }
 
-.calc .line1 div + div {
-    padding-left: 43px;
+
+.calc .line1 div {
+    margin: 0px 25px 0px 0px;
+}
+
+.calc .line1 .enterAmount {
+    margin: 0px 0px 0px 0px;
 }
 
 .calc .depositAmount span:nth-child(2) {
@@ -655,7 +660,7 @@ header .headMenu a {
 .calc .profItem {
     width: 20%;
     float: left;
-    padding: 45px 10px 40px
+    padding: 0px 10px 20px;
 }
 
 .profitForm1 {
@@ -685,14 +690,14 @@ header .headMenu a {
     border: 1px solid #05141b;
 }
 
-.selectPlan label {
+.calc .selectPlan label {
     font-size: 17px;
     line-height: 30px;
     font-weight: 700;
     color: #05141b;
     text-transform: uppercase;
     display: block;
-    padding: 0px 0px 6px 0px;
+    padding: 0px;
 }
 
 .selectBl {
@@ -709,8 +714,8 @@ header .headMenu a {
     font-size: 17px;
     line-height: 30px;
     color: #05141b;
-    padding: 10px 100px 0px 0px;
-    margin: 0 38px 0 -25px;
+    padding: 10px 120px 0px 35px;
+    margin: 0px 38px 0 0px;
 }
 
 .selectBl .selectric .button {
@@ -768,10 +773,15 @@ header .headMenu a {
     display: block;
     width: 300px;
     height: 55px;
-    text-align: right;
     box-shadow: 8px 0px 11px 0px rgba(0, 0, 0, 0.11);
-    padding: 0px 10px;
-    font-weight: 700;
+}
+
+.enterAmount .entNum {
+    text-align: left;
+    font-size: 17px;
+    line-height: 30px;
+    color: #05141b;
+    padding-left: 10px;
 }
 
 .enterAmount span:nth-child(2) {
@@ -796,7 +806,94 @@ header .headMenu a {
 }
 
 .calc .range {
-    margin: 50px 0 0 60px;
+   margin: 50px 60px 50px 60px;
+}
+
+.range .irs-line {
+    width: 1050px;
+    height: 15px;
+    border-radius: 0px;
+    background-color: #05141b;
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.21);
+}
+
+.range .irs-bar {
+    height: 15px;
+    background-color: #ff9001;
+    border: 1px solid #05141b;
+    border-radius: 0px;
+}
+
+.range .irs-grid {
+    bottom: 20px;
+    width: 1071px;
+}
+
+.range .irs-grid .irs-grid-text {
+    display: none;
+}
+
+.range .irs-grid .irs-grid-pol {
+    height: 25px;
+    background-color: #05141b;
+}
+
+.range .irs-grid .irs-grid-pol:nth-last-child(2) {
+    display: none;
+}
+
+.range .irs-handle {
+    top: 9px;
+    width: 45px;
+    height: 45px;
+    background-color: #041117;
+    border: 14px solid #ff9001;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 0px 27px rgba(0, 0, 0, 0.21);
+    cursor: pointer;
+}
+
+.range .irs-handle i {
+    display: none!important;
+}
+
+
+.range .irs-single {
+    top: -30px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ff9001;
+    font-weight: bold;
+    background-color: #05141b;
+    border-radius: 0;
+}
+
+.range .irs-single::before {
+    display: none;
+}
+
+.range .irs-min {
+    top: 50px;
+    left: -3px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #05141b;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.range .irs-max {
+    top: 50px;
+    right: 1px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #05141b;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 .profit span:first-child {
