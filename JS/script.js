@@ -28,7 +28,8 @@ $(document).ready(function () {
         margin: 20,
         dots: false,
         nav: true,
-        navText: ["<", ">"],
+        navText: ["<span class = 'icon-leftLight'></span>",
+            "<span class = 'icon-rightLight'></span>"],
         loop: true,
         autoplay: false
     });

@@ -508,6 +508,16 @@ header .headMenu a {
     display: block;
 }
 
+.slider [class*="icon-leftLight"] {
+    top: -20px;
+    left: -30px;
+}
+
+.slider [class*="icon-rightLight"] {
+    top: -20px;
+    right: -30px;
+}
+
 .slider [class*="item"] > span:first-child {
     position: absolute;
     top: 3px;
