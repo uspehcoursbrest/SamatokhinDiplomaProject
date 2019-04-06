@@ -38,12 +38,63 @@
         margin-top: 20px;
     }
 
+    .slider .item {
+        width: 215px;
+        height: 320px;
+    }
+
+    .slider [class*="icon"] {
+        font-size: 87px;
+        top: 70px;
+        left: 60px
+    }
+
+    .slider [class*="icon-leftLight"] {
+        top: -20px;
+        left: -25px;
+    }
+
+    .slider [class*="icon-rightLight"] {
+        top: -20px;
+        right: -25px;
+    }
+
     .calc {
         width: 920px;
     }
 
     .runner input {
         width: 92%;
+    }
+
+    .range .irs-grid {
+        width: 808px;
+    }
+
+    .range .irs-line {
+        width: 793px;
+    }
+
+    .selectBl .selectric .label {
+        padding: 10px 35px 0px 0px;
+        margin: 0px 35px 0 0px;
+    }
+
+    .selectPlan select {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .calc .selectPlan label {
+        padding: 10px 0px;
+    }
+
+    .calc .line1 .depositAmount {
+        display: none;
+    }
+
+    .calc .line1 div {
+        margin: -7px 7px -22px 0px;
     }
 
     .calc .getMoney {
@@ -185,6 +236,11 @@
         padding: 0;
     }
 
+
+    .menuSelect {
+        display: block;
+    }
+
     .tagline1 {
         font-size: 34px;
         line-height: 69px;
@@ -200,9 +256,63 @@
         line-height: 10px;
     }
 
+    .slider .item {
+        width: 140px;
+        height: 300px;
+    }
+
+    .slider [class*="item"] > span:first-child {
+        font-size: 55px;
+    }
+
+    .slider [class*="icon"] {
+        font-size: 65px;
+        top: 80px;
+        left: 41px;
+    }
+
+    .slider [class*="item"] > span:nth-child(3) {
+        font-size: 33px;
+    }
+
+    .slider [class*="icon-leftLight"] {
+        top: -10px;
+        left: -3px;
+    }
+
+    .slider [class*="icon-rightLight"] {
+        top: -10px;
+        right: -3px;
+    }
+
+
     .calc {
         width: 720px;
         height: 680px;
+    }
+
+    .calc .line1 .depositAmount {
+        display: none;
+    }
+    .calc .line1 div {
+        margin: 2px 7px -10px 0px;
+    }
+
+    .selectBl .selectric .label {
+        padding: 5px 35px 0px 5px;
+        margin: 0px 65px 0 0px;
+    }
+
+    .range .irs-grid {
+        width: 593px;
+    }
+
+    .range .irs-line {
+        width: 583px;
+    }
+
+    .calc .selectPlan label {
+        padding: 0px 0px;
     }
 
     .calculator .captionDark::before {
