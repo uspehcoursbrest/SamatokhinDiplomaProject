@@ -493,11 +493,11 @@ header .headMenu a {
 }
 
 .slider .owl-nav button.owl-prev {
-    left: -50px;
+    left: 0px;
 }
 
 .slider .owl-nav button.owl-next {
-    right: -50px;
+    left: calc(100% + -115px);
 }
 
 .slider [class*="icon"] {
@@ -510,7 +510,7 @@ header .headMenu a {
 
 .slider [class*="icon-leftLight"] {
     top: -20px;
-    left: -30px;
+    left: -80px;
 }
 
 .slider [class*="icon-rightLight"] {
@@ -857,7 +857,8 @@ header .headMenu a {
 }
 
 .range .irs-handle {
-    top: 2px;
+    position: relative;
+    top: -14px;
     width: 61px;
     height: 59px;
     background-color: transparent;
@@ -865,6 +866,19 @@ header .headMenu a {
     -moz-border-radius: 50%;
     cursor: pointer;
     background-image: url(../img/png/backRange.png);
+}
+
+.range .irs-handle::before {
+    display: block;
+    content: '';
+    clear: both;
+    position: absolute;
+    background-color: #333333;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    top: 24px;
+    left: 25px;
 }
 
 .range .irs-handle i {
